@@ -1,4 +1,4 @@
-// UMMAN2005 @ 2025
+// UMMAN2005
 package handler
 
 import (
