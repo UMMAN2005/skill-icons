@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256px" height="256px" viewBox="0 0 256 256" version="1.1">
+
+  <style>
+#rect {
+    fill: #242938;
+}
+
+    @media (prefers-color-scheme: light) {
+        #rect {
+            fill: #F4F2ED;
+        }
+    }
+</style>
+<rect id="rect" x="0" y="0" width="256" height="256" rx="60" style="fill-opacity:1;stroke:none;"/>
+
+  <g transform="translate(28,24)"> 
+    <path fill="#ffd815" d="M 200,20 L 100,200 L 0,20 Z"/>  
+
+    <rect x="94" y="44" width="18" height="18" fill="#ffffff"/>
+    <rect x="67" y="44" width="18" height="18" fill="#ffffff"/>
+    <rect x="121" y="44" width="18" height="18" fill="#ffffff"/>
+    
+    <rect x="67" y="70" width="18" height="18" fill="#ffffff"/>
+    <rect x="94" y="70" width="18" height="18" fill="#ffffff"/>
+    <rect x="121" y="70" width="18" height="18" fill="#ffffff"/>
+    
+    <rect x="94" y="96" width="18" height="18" fill="#ffffff"/>
+  </g>
+</svg>
