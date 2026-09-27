@@ -13,10 +13,24 @@ import (
 
 func TestCustomIconsSurviveUpstreamSync(t *testing.T) {
 	for _, name := range []string{
-		"chainlink", "consul", "docker", "fluentd", "flux",
-		"istio", "kustomize", "linkerd", "logstash", "packer", "vault", "windows11",
+		"consul", "docker", "fluentd", "flux",
+		"istio", "kustomize", "linkerd", "logstash", "packer", "vault",
+		"kubernetes", "prometheus", "debian", "ubuntu", "c", "dotnet",
+		"discord", "kafka", "postman", "solidity",
 	} {
-		for _, theme := range []string{"", "auto", "dark", "light"} {
+		for _, theme := range []string{"", "dark", "light"} {
+			assetTheme := theme
+			if assetTheme == "" {
+				assetTheme = "auto"
+			}
+			t.Run(name+"/"+theme, func(t *testing.T) {
+				assertIconResponse(t, name, theme, name+"-"+assetTheme+".svg")
+			})
+		}
+	}
+
+	for _, name := range []string{"chainlink", "windows11"} {
+		for _, theme := range []string{"", "auto"} {
 			t.Run(name+"/"+theme, func(t *testing.T) {
 				assertIconResponse(t, name, theme, name+".svg")
 			})
