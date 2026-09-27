@@ -1,0 +1,15 @@
+<svg id="html" xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <style>
+    #html .html-bg { fill: #242938; }
+    @media (prefers-color-scheme: light) {
+      #html .html-bg { fill: #F4F2ED; }
+    }
+  </style>
+  <rect class="html-bg" width="256" height="256" rx="60" fill="#242938"/>
+  <g transform="translate(36, 36) scale(1.4375)">
+  <path fill="#E44D26" d="M19.037 113.876L9.032 1.661h109.936l-10.016 112.198-45.019 12.48z"/>
+  <path fill="#F16529" d="M64 116.8l36.378-10.086 8.559-95.878H64z"/>
+  <path fill="#EBEBEB" d="M64 52.455H45.788L44.53 38.361H64V24.599H29.489l.33 3.692 3.382 37.927H64zm0 35.743l-.061.017-15.327-4.14-.979-10.975H33.816l1.928 21.609 28.193 7.826.063-.017z"/>
+  <path fill="#fff" d="M63.952 52.455v13.763h16.947l-1.597 17.849-15.35 4.143v14.319l28.215-7.82-2.73-30.887H63.952zm0-27.856v13.763h33.456l.33-3.692.898-10.071H63.952z"/>
+</g>
+</svg>

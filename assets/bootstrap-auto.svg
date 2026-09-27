@@ -1,0 +1,13 @@
+<svg id="bootstrap" xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <style>
+    #bootstrap .bootstrap-bg { fill: #242938; }
+    @media (prefers-color-scheme: light) {
+      #bootstrap .bootstrap-bg { fill: #F4F2ED; }
+    }
+  </style>
+  <rect class="bootstrap-bg" width="256" height="256" rx="60" fill="#242938"/>
+  <g transform="translate(48, 48) scale(1.25)">
+  <rect width="128" height="128" rx="28" fill="#7952B3"/>
+  <path fill="#FFFFFF" d="M69.04 98.08c14.84 0 23.78-7.26 23.78-19.24 0-9.06-6.38-15.62-15.86-16.65v-.38c7.47-1.13 13.34-7.6 13.34-14.82 0-10.28-8.12-16.99-20.49-16.99H41.05v68.08H69.04zm-17.16-59.45h14.4c7.83 0 12.28 3.49 12.28 9.82 0 6.74-5.17 10.54-14.54 10.54H51.88V38.63zm0 50.81V69.72h16.21c10.25 0 15.57 3.77 15.57 11.13 0 7.36-5.17 11.59-15.72 11.59H51.88z"/>
+</g>
+</svg>

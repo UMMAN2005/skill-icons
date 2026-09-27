@@ -64,6 +64,7 @@ func TestNewProposedIcons(t *testing.T) {
 		"terragrunt", "crossplane", "rke2", "cilium", "kuma",
 		"loki", "tempo", "harbor", "minio", "longhorn",
 		"externalsecrets", "falco", "trivy", "certmanager", "vmware",
+		"opentofu", "kubescape", "mimir", "pyroscope",
 	} {
 		for _, theme := range []string{"", "dark", "light"} {
 			assetTheme := theme
@@ -82,10 +83,28 @@ func TestNewProposedIcons(t *testing.T) {
 		{"cert-manager", "certmanager-auto.svg"},
 		{"external-secrets", "externalsecrets-auto.svg"},
 		{"tg", "terragrunt-auto.svg"},
+		{"tofu", "opentofu-auto.svg"},
+		{"open-tofu", "opentofu-auto.svg"},
 	} {
 		t.Run("alias/"+alias.input, func(t *testing.T) {
 			assertIconResponse(t, alias.input, "", alias.target)
 		})
+	}
+}
+
+func TestWebStackIcons(t *testing.T) {
+	for _, name := range []string{
+		"html", "css", "bootstrap",
+	} {
+		for _, theme := range []string{"", "dark", "light"} {
+			assetTheme := theme
+			if assetTheme == "" {
+				assetTheme = "auto"
+			}
+			t.Run(name+"/"+theme, func(t *testing.T) {
+				assertIconResponse(t, name, theme, name+"-"+assetTheme+".svg")
+			})
+		}
 	}
 }
 
