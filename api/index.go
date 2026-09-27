@@ -71,7 +71,7 @@ var shortNames = map[string]string{
 	"fs":                "fuse",
 	"id":                "indesign",
 	"ic":                "incopy",
-	"sp":                "spark",
+	"sp":                "adobespark",
 	"dw":                "dreamweaver",
 	"dn":                "dimension",
 	"ar":                "aero",
@@ -93,6 +93,9 @@ var shortNames = map[string]string{
 	"twitter":           "x",
 	"arc":               "arcbrowser",
 	"hf":                "huggingface",
+	"sqla":              "sqlalchemy",
+    "notepad++":         "notepadpp",
+    "jq":                "jqlang",
 }
 
 var (
@@ -156,6 +159,12 @@ func parseShortNames(names []string, theme string) []string {
 	result := make([]string, len(names))
 
 	for i, name := range names {
+		// Keep custom base icons as defaults when upstream adds themed variants.
+		if _, ok := icons[name]; ok {
+			result[i] = name
+			continue
+		}
+
 		if contains(iconNameList, name) {
 			if contains(themedIcons, name) {
 				result[i] = name + "-" + theme
