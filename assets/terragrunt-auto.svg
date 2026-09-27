@@ -1,13 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" id="terragrunt">
   <style>
-    #terragrunt {
-        rect { fill: #242938; }
-        @media (prefers-color-scheme: light) {
-            rect { fill: #F4F2ED; }
-        }
+    .terragrunt-bg {
+      fill: #242938;
+    }
+    @media (prefers-color-scheme: light) {
+      .terragrunt-bg {
+        fill: #F4F2ED;
+      }
     }
   </style>
-  <rect id="rect" width="256" height="256" rx="60" fill="#242938"/>
+  <rect class="terragrunt-bg" width="256" height="256" rx="60" fill="#242938"/>
   <g transform="translate(48.0, 48.0) scale(8.0)">
     <path fill-rule="evenodd" clip-rule="evenodd" d="M10.5308 0.98291L18.3467 5.48291V14.4829L10.5308 18.9829L2.71484 14.4829V5.48291L10.5308 0.98291ZM17.503 5.9687L10.5308 1.95448L3.55859 5.9687V13.9971L10.5308 18.0113L17.503 13.9971V5.9687Z" fill="white" />
 <path fill-rule="evenodd" clip-rule="evenodd" d="M10.5308 18.0114V13.9971V9.98293L7.04468 7.97582L3.55859 5.96871V9.98293V13.9971L10.5308 18.0114Z" fill="white" />

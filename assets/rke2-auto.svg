@@ -1,13 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" id="rke2">
   <style>
-    #rke2 {
-        rect { fill: #242938; }
-        @media (prefers-color-scheme: light) {
-            rect { fill: #F4F2ED; }
-        }
+    .rke2-bg {
+      fill: #242938;
+    }
+    @media (prefers-color-scheme: light) {
+      .rke2-bg {
+        fill: #F4F2ED;
+      }
     }
   </style>
-  <rect id="rect" width="256" height="256" rx="60" fill="#242938"/>
+  <rect class="rke2-bg" width="256" height="256" rx="60" fill="#242938"/>
   <g transform="translate(45.5, 60.423) scale(1.21324)">
     <style type="text/css">
 	.rke2_st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}

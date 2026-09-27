@@ -1,20 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" id="solidity">
   <style>
-    #solidity {
-        rect { fill: #242938; }
-        path { fill: #65AFFF; }
-        @media (prefers-color-scheme: light) {
-            rect { fill: #F4F2ED; }
-            path { fill: #363636; }
-        }
+    #solidity .solidity-bg { fill: #242938; }
+    #solidity path { fill: #65AFFF; }
+    @media (prefers-color-scheme: light) {
+      #solidity .solidity-bg { fill: #F4F2ED; }
+      #solidity path { fill: #363636; }
     }
   </style>
-  <rect id="rect" width="256" height="256" rx="60" fill="#242938"/>
+  <rect class="solidity-bg" width="256" height="256" rx="60" fill="#242938"/>
   <path fill="#65AFFF" d="M165.536 25L128.006 83.79H53L90.5034 25H165.536Z" opacity=".45"/>
-<path fill="#65AFFF" d="M128.006 83.79H203.039L165.536 25H90.5034L128.006 83.79Z" opacity=".6"/>
-<path fill="#65AFFF" d="M90.5034 142.557L128.006 83.79L90.5034 25L53 83.79L90.5034 142.557Z" opacity=".8"/>
-<path fill="#65AFFF" d="M90.8667 230.742L128.396 171.952H203.429L165.899 230.742H90.8667Z" opacity=".45"/>
-<path fill="#65AFFF" d="M128.396 171.952H53.3633L90.8664 230.742H165.899L128.396 171.952Z" opacity=".6"/>
-<path fill="#65AFFF" d="M165.899 113.185L128.396 171.952L165.899 230.742L203.428 171.952L165.899 113.185Z" opacity=".8"/>
-
+  <path fill="#65AFFF" d="M128.006 83.79H203.039L165.536 25H90.5034L128.006 83.79Z" opacity=".6"/>
+  <path fill="#65AFFF" d="M90.5034 142.557L128.006 83.79L90.5034 25L53 83.79L90.5034 142.557Z" opacity=".8"/>
+  <path fill="#65AFFF" d="M90.8667 230.742L128.396 171.952H203.429L165.899 230.742H90.8667Z" opacity=".45"/>
+  <path fill="#65AFFF" d="M128.396 171.952H53.3633L90.8664 230.742H165.899L128.396 171.952Z" opacity=".6"/>
+  <path fill="#65AFFF" d="M165.899 113.185L128.396 171.952L165.899 230.742L203.428 171.952L165.899 113.185Z" opacity=".8"/>
 </svg>

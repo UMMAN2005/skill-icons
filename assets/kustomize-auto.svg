@@ -1,17 +1,17 @@
 <svg id="kustomize" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256px" height="256px" viewBox="0 0 256 256" version="1.1">
   <style>
-    #kustomize #rect {
+    #kustomize .kustomize-bg {
         fill: #242938;
     }
 
     @media (prefers-color-scheme: light) {
-        #kustomize #rect {
+        #kustomize .kustomize-bg {
             fill: #F4F2ED;
         }
     }
   </style>
-  <g id="surface1">
-    <rect id="rect" x="0" y="0" width="256" height="256" rx="60" style="fill-opacity:1;stroke:none;"/>
+  <g>
+    <rect class="kustomize-bg" x="0" y="0" width="256" height="256" rx="60" fill="#242938"/>
     <g transform="translate(60, 54)">
 <g><path style="opacity:1" fill="#b0bcd8" d="M 112.5,18.5 C 84.1647,18.3334 55.8314,18.5 27.5,19C 26.3333,20.1667 25.1667,21.3333 24,22.5C 23.5,55.165 23.3334,87.8316 23.5,120.5C 17.6079,121.927 13.4412,119.927 11,114.5C 10.3333,79.8333 10.3333,45.1667 11,10.5C 12.5,9 14,7.5 15.5,6C 45.8333,5.33333 76.1667,5.33333 106.5,6C 111.935,8.34457 113.935,12.5112 112.5,18.5 Z"/></g>
 <g><path style="opacity:1" fill="#7e91c0" d="M 112.5,18.5 C 112.5,22.5 112.5,26.5 112.5,30.5C 88.4977,30.3334 64.4977,30.5 40.5,31C 38.714,31.7845 37.214,32.9512 36,34.5C 35.5,63.1647 35.3334,91.8314 35.5,120.5C 31.5,120.5 27.5,120.5 23.5,120.5C 23.3334,87.8316 23.5,55.165 24,22.5C 25.1667,21.3333 26.3333,20.1667 27.5,19C 55.8314,18.5 84.1647,18.3334 112.5,18.5 Z"/></g>

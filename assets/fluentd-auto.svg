@@ -10,18 +10,18 @@
 	.st7{fill:url(#fluentd_SVGID_8_);}
 	.st8{fill:#FFFFFF;}
 
-    #rect {
-    fill: #242938;
-}
+    #fluentd .fluentd-bg {
+        fill: #242938;
+    }
 
     @media (prefers-color-scheme: light) {
-        #rect {
+        #fluentd .fluentd-bg {
             fill: #F4F2ED;
         }
     }
   </style>
-  <g id="surface1">
-<rect id="rect" x="0" y="0" width="1274" height="1274" rx="298" style="fill-opacity:1;stroke:none;"/>
+  <g>
+    <rect class="fluentd-bg" x="0" y="0" width="1274" height="1274" rx="298" fill="#242938"/>
   <g transform="translate(0, 113.5)">
     <g>
       <g>

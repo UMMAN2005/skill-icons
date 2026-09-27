@@ -1,13 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" id="loki">
   <style>
-    #loki {
-        rect { fill: #242938; }
-        @media (prefers-color-scheme: light) {
-            rect { fill: #F4F2ED; }
-        }
+    .loki-bg {
+      fill: #242938;
+    }
+    @media (prefers-color-scheme: light) {
+      .loki-bg {
+        fill: #F4F2ED;
+      }
     }
   </style>
-  <rect id="rect" width="256" height="256" rx="60" fill="#242938"/>
+  <rect class="loki-bg" width="256" height="256" rx="60" fill="#242938"/>
   <g transform="translate(154.195, 78.818) scale(0.53459)">
     <style type="text/css">
 	.loki_st0{fill:url(#loki_SVGID_1_);}
