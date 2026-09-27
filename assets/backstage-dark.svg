@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" id="backstage">
+  <style>
+    #backstage .backstage-bg { fill: #242938; }
+    @media (prefers-color-scheme: light) {
+      #backstage .backstage-bg { fill: #F4F2ED; }
+    }
+  </style>
+  <rect class="backstage-bg" width="256" height="256" rx="60"/>
+  <!-- Backstage Spotify-style: two overlapping rounded rectangles in official teal -->
+  <rect x="56" y="56" width="64" height="144" rx="32" fill="#9BF0E1"/>
+  <rect x="96" y="56" width="104" height="96" rx="32" fill="#00BFA5"/>
+  <rect x="96" y="116" width="104" height="84" rx="32" fill="#00BFA5" opacity="0.7"/>
+</svg>

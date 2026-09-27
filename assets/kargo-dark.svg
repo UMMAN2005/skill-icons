@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" id="kargo">
+  <style>
+    #kargo .kargo-bg { fill: #0F172A; }
+    @media (prefers-color-scheme: light) {
+      #kargo .kargo-bg { fill: #1E293B; }
+    }
+  </style>
+  <rect class="kargo-bg" width="256" height="256" rx="60"/>
+  <!-- Kargo hex-shield with K -->
+  <path fill="#F97316" d="M128 36 L192 72 L192 144 L128 180 L64 144 L64 72 Z"/>
+  <path fill="#0F172A" d="M128 52 L180 80 L180 140 L128 168 L76 140 L76 80 Z"/>
+  <path fill="white" d="M104 88 L104 168 L118 168 L118 136 L145 168 L162 168 L134 132 L160 96 L143 96 L118 126 L118 88 Z"/>
+</svg>

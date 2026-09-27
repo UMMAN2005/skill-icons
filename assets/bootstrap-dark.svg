@@ -1,7 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
-  <rect width="256" height="256" rx="60" fill="#242938"/>
-  <g transform="translate(48, 48) scale(1.25)">
-  <rect width="128" height="128" rx="28" fill="#7952B3"/>
-  <path fill="#FFFFFF" d="M69.04 98.08c14.84 0 23.78-7.26 23.78-19.24 0-9.06-6.38-15.62-15.86-16.65v-.38c7.47-1.13 13.34-7.6 13.34-14.82 0-10.28-8.12-16.99-20.49-16.99H41.05v68.08H69.04zm-17.16-59.45h14.4c7.83 0 12.28 3.49 12.28 9.82 0 6.74-5.17 10.54-14.54 10.54H51.88V38.63zm0 50.81V69.72h16.21c10.25 0 15.57 3.77 15.57 11.13 0 7.36-5.17 11.59-15.72 11.59H51.88z"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" id="bootstrap">
+  <defs>
+    <linearGradient id="bs-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9013FE"/>
+      <stop offset="1" stop-color="#6610F2"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="60" fill="url(#bs-grad)"/>
+  <!-- Bootstrap official B mark -->
+  <path fill="white" d="M88 60h48c26 0 44 12 44 34 0 14-8 24-20 28 16 4 26 16 26 32 0 24-18 42-48 42H88V60zm20 58h26c14 0 22-6 22-18s-8-18-22-18H108v36zm0 58h28c16 0 26-8 26-22s-10-22-26-22H108v44z"/>
 </svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" id="talos">
+  <rect width="256" height="256" rx="60" fill="#F0F4F8"/>
+  <circle cx="128" cy="128" r="80" fill="none" stroke="#1A1D23" stroke-width="18"/>
+  <circle cx="128" cy="128" r="52" fill="none" stroke="#1A1D23" stroke-width="12"/>
+  <circle cx="128" cy="128" r="24" fill="#1A1D23"/>
+</svg>

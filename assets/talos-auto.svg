@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" id="talos">
+  <style>
+    #talos .talos-bg { fill: #1A1D23; }
+    @media (prefers-color-scheme: light) {
+      #talos .talos-bg { fill: #F0F4F8; }
+    }
+  </style>
+  <rect class="talos-bg" width="256" height="256" rx="60"/>
+  <!-- Talos: concentric rings - the official icon look -->
+  <circle cx="128" cy="128" r="80" fill="none" stroke="#FFE400" stroke-width="18"/>
+  <circle cx="128" cy="128" r="52" fill="none" stroke="#FFE400" stroke-width="12"/>
+  <circle cx="128" cy="128" r="24" fill="#FFE400"/>
+</svg>

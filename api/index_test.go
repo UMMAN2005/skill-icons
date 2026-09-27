@@ -108,6 +108,36 @@ func TestWebStackIcons(t *testing.T) {
 	}
 }
 
+func TestNewIcons2(t *testing.T) {
+	for _, name := range []string{
+		"kargo", "kubescape", "opa", "kyverno", "backstage",
+		"trivy", "talos", "cilium", "haproxy", "nix", "uv",
+	} {
+		for _, theme := range []string{"", "dark", "light"} {
+			assetTheme := theme
+			if assetTheme == "" {
+				assetTheme = "auto"
+			}
+			t.Run(name+"/"+theme, func(t *testing.T) {
+				assertIconResponse(t, name, theme, name+"-"+assetTheme+".svg")
+			})
+		}
+	}
+
+	for _, alias := range []struct {
+		input, target string
+	}{
+		{"open-policy-agent", "opa-auto.svg"},
+		{"cplusplus", "cpp.svg"},
+		{"csharp", "cs.svg"},
+		{"taloslinux", "talos-auto.svg"},
+	} {
+		t.Run("alias/"+alias.input, func(t *testing.T) {
+			assertIconResponse(t, alias.input, "", alias.target)
+		})
+	}
+}
+
 func assertIconResponse(t *testing.T, name, theme, asset string) {
 	t.Helper()
 	expected, err := os.ReadFile("../assets/" + asset)

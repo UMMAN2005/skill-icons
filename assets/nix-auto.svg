@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" id="nix">
+  <style>
+    #nix .nix-bg { fill: #242938; }
+    @media (prefers-color-scheme: light) {
+      #nix .nix-bg { fill: #F4F2ED; }
+    }
+  </style>
+  <rect class="nix-bg" width="256" height="256" rx="60"/>
+  <!-- Nix lambda (λ) symbol in Nix blue -->
+  <text x="128" y="158" text-anchor="middle" font-family="DejaVu Serif,Georgia,serif" font-size="140" fill="#5277C3" font-weight="bold">λ</text>
+</svg>

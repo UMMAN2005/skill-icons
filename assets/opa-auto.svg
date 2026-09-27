@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" id="opa">
+  <style>
+    #opa .opa-bg { fill: #242938; }
+    @media (prefers-color-scheme: light) {
+      #opa .opa-bg { fill: #F4F2ED; }
+    }
+  </style>
+  <rect class="opa-bg" width="256" height="256" rx="60"/>
+  <!-- OPA official icon: blue circle with white O-P-A text and shield -->
+  <circle cx="128" cy="128" r="88" fill="#2667FF"/>
+  <path fill="white" d="M128 56L168 76V116C168 148 148 168 128 176C108 168 88 148 88 116V76Z"/>
+  <path fill="#2667FF" d="M128 68L160 84V116C160 144 144 160 128 166C112 160 96 144 96 116V84Z"/>
+  <!-- OPA text -->
+  <text x="128" y="134" text-anchor="middle" font-family="Arial Black,sans-serif" font-weight="900" font-size="34" fill="white">OPA</text>
+</svg>

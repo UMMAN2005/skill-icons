@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" id="haproxy">
+  <style>
+    #haproxy .ha-bg { fill: #1E2A3A; }
+    @media (prefers-color-scheme: light) {
+      #haproxy .ha-bg { fill: #F0F4F8; }
+    }
+  </style>
+  <rect class="ha-bg" width="256" height="256" rx="60"/>
+  <!-- HAProxy stylized H - based on official brand guide -->
+  <rect x="60" y="70" width="36" height="116" rx="6" fill="white"/>
+  <rect x="160" y="70" width="36" height="116" rx="6" fill="white"/>
+  <rect x="60" y="110" width="136" height="36" rx="6" fill="white"/>
+</svg>
