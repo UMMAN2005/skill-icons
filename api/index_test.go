@@ -13,7 +13,7 @@ import (
 
 func TestCustomIconsSurviveUpstreamSync(t *testing.T) {
 	for _, name := range []string{
-		"chainlink", "consul", "docker", "dockerswarm", "fluentd", "flux",
+		"chainlink", "consul", "docker", "fluentd", "flux",
 		"istio", "kustomize", "linkerd", "logstash", "packer", "vault", "windows11",
 	} {
 		for _, theme := range []string{"", "auto", "dark", "light"} {

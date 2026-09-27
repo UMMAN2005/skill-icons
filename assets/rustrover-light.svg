@@ -4,7 +4,7 @@
 <g id="Group 17">
 <g id="Clip path group">
 <mask id="mask0_7_9" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="30" y="30" width="195" height="195">
-<g id="v">
+<g id="rustrover_v">
 <path id="Vector_2" d="M30 30H225V225H30V30Z" fill="white"/>
 </g>
 </mask>
@@ -32,7 +32,7 @@
 <path id="Vector_19" d="M188.017 66.9829H66.9829V188.017H188.017V66.9829Z" fill="url(#paint16_linear_7_9)"/>
 <g id="Clip path group_2">
 <mask id="mask1_7_9" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="66" y="66" width="123" height="123">
-<g id="w">
+<g id="rustrover_w">
 <path id="Vector_20" d="M66.9829 66.9829H188.017V188.017H66.9829V66.9829Z" fill="white"/>
 </g>
 </mask>

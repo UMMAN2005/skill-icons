@@ -8,10 +8,10 @@
     }
 }  
 </style>
-<g clip-path="url(#a)">
-<g mask="url(#b)">
-<g mask="url(#c)">
-<g mask="url(#d)">
+<g>
+<g>
+<g>
+<g>
 <rect width="256" height="256" fill="#242938" rx="60"/>
 <path d="m73 231v-156.9193l50-50.0807v160.259z" fill="#ac9fff"/>
 <g fill="#7762ff">

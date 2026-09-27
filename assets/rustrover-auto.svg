@@ -13,17 +13,17 @@
 <g id="Group 17">
 <g id="Clip path group">
 <mask id="mask0_7_2" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="30" y="30" width="195" height="195">
-<g id="v">
+<g id="rustrover_v">
 <path id="Vector_2" d="M30 30H225V225H30V30Z" fill="white"/>
 </g>
 </mask>
 <g mask="url(#mask0_7_2)">
 <g id="Group">
-<path id="Vector_3" d="M164.553 30L220.491 70.0166L163.03 145.054L108.265 81.709L164.553 30Z" fill="url(#paint0_linear_7_2)"/>
-<path id="Vector_4" d="M164.553 30L220.491 70.0166L148.093 103.525L108.265 81.709L164.553 30Z" fill="url(#paint1_linear_7_2)"/>
-<path id="Vector_5" d="M164.553 30L148.093 103.525L108.265 81.709L164.553 30Z" fill="url(#paint2_linear_7_2)"/>
-<path id="Vector_6" d="M225 149.844L148.493 102.954L51.7021 171.221L74.5775 215.228L225 149.844Z" fill="url(#paint3_linear_7_2)"/>
-<path id="Vector_7" d="M225 149.843L180.55 122.797L127.368 136.563L75.2114 225L225 149.843Z" fill="url(#paint4_linear_7_2)"/>
+<path id="Vector_3" d="M164.553 30L220.491 70.0166L163.03 145.054L108.265 81.709L164.553 30Z" fill="url(#rustrover_paint0_linear_7_2)"/>
+<path id="Vector_4" d="M164.553 30L220.491 70.0166L148.093 103.525L108.265 81.709L164.553 30Z" fill="url(#rustrover_paint1_linear_7_2)"/>
+<path id="Vector_5" d="M164.553 30L148.093 103.525L108.265 81.709L164.553 30Z" fill="url(#rustrover_paint2_linear_7_2)"/>
+<path id="Vector_6" d="M225 149.844L148.493 102.954L51.7021 171.221L74.5775 215.228L225 149.844Z" fill="url(#rustrover_paint3_linear_7_2)"/>
+<path id="Vector_7" d="M225 149.843L180.55 122.797L127.368 136.563L75.2114 225L225 149.843Z" fill="url(#rustrover_paint4_linear_7_2)"/>
 <path id="Vector_8" d="M179.955 122.952L225 149.842L159.042 150.723L179.955 122.952Z" fill="url(#paint5_linear_7_2)"/>
 <path id="Vector_9" d="M136.892 133.676L96.085 214.835L159.043 150.724L136.892 133.676Z" fill="url(#paint6_linear_7_2)"/>
 <path id="Vector_10" d="M72.1288 31.3882L175.225 56.8816L75.2114 225L30 152.15L72.1288 31.3882Z" fill="url(#paint7_linear_7_2)"/>
@@ -41,7 +41,7 @@
 <path id="Vector_19" d="M188.017 66.9829H66.9829V188.017H188.017V66.9829Z" fill="url(#paint16_linear_7_2)"/>
 <g id="Clip path group_2">
 <mask id="mask1_7_2" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="66" y="66" width="123" height="123">
-<g id="w">
+<g id="rustrover_w">
 <path id="Vector_20" d="M66.9829 66.9829H188.017V188.017H66.9829V66.9829Z" fill="white"/>
 </g>
 </mask>
@@ -61,28 +61,28 @@
 </g>
 </g>
 <defs>
-<linearGradient id="paint0_linear_7_2" x1="146.32" y1="121.827" x2="176.605" y2="44.7386" gradientUnits="userSpaceOnUse">
+<linearGradient id="rustrover_paint0_linear_7_2" x1="146.32" y1="121.827" x2="176.605" y2="44.7386" gradientUnits="userSpaceOnUse">
 <stop offset="0.04937" stop-color="#219E89"/>
 <stop offset="0.27923" stop-color="#21BD89"/>
 <stop offset="0.75337" stop-color="#6EDD88"/>
 <stop offset="1" stop-color="#71DE88"/>
 </linearGradient>
-<linearGradient id="paint1_linear_7_2" x1="171.86" y1="38.939" x2="151.607" y2="138.887" gradientUnits="userSpaceOnUse">
+<linearGradient id="rustrover_paint1_linear_7_2" x1="171.86" y1="38.939" x2="151.607" y2="138.887" gradientUnits="userSpaceOnUse">
 <stop stop-color="#5EF789"/>
 <stop offset="0.1634" stop-color="#21D789"/>
 <stop offset="0.50492" stop-color="#0EA67B"/>
 <stop offset="0.98215" stop-color="#21D789"/>
 </linearGradient>
-<linearGradient id="paint2_linear_7_2" x1="113.741" y1="112.397" x2="181.61" y2="19.4197" gradientUnits="userSpaceOnUse">
+<linearGradient id="rustrover_paint2_linear_7_2" x1="113.741" y1="112.397" x2="181.61" y2="19.4197" gradientUnits="userSpaceOnUse">
 <stop offset="0.38956" stop-color="#5EF789"/>
 <stop offset="0.63623" stop-color="#21D789"/>
 <stop offset="0.92822" stop-color="#0EA67B"/>
 </linearGradient>
-<linearGradient id="paint3_linear_7_2" x1="196.663" y1="76.727" x2="95.3767" y2="222.295" gradientUnits="userSpaceOnUse">
+<linearGradient id="rustrover_paint3_linear_7_2" x1="196.663" y1="76.727" x2="95.3767" y2="222.295" gradientUnits="userSpaceOnUse">
 <stop offset="0.24437" stop-color="#21D789"/>
 <stop offset="0.89126" stop-color="#FDB60D"/>
 </linearGradient>
-<linearGradient id="paint4_linear_7_2" x1="229.165" y1="67.0599" x2="122.321" y2="220.615" gradientUnits="userSpaceOnUse">
+<linearGradient id="rustrover_paint4_linear_7_2" x1="229.165" y1="67.0599" x2="122.321" y2="220.615" gradientUnits="userSpaceOnUse">
 <stop stop-color="#21D789"/>
 <stop offset="1" stop-color="#FDB60D"/>
 </linearGradient>
