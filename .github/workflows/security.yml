@@ -16,6 +16,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: Check SVG structure and shared references
+        run: python3 scripts/audit_svgs.py
+      - name: Check reviewed brand artwork
+        run: python3 scripts/generate_brand_icons.py --check
       - name: set permission to security script
         run: chmod +x ./.github/security.sh
       - name: check icons formatting

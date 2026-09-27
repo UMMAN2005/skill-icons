@@ -138,6 +138,21 @@ func TestNewIcons2(t *testing.T) {
 	}
 }
 
+func TestExplicitThemesForIconsWithBaseAssets(t *testing.T) {
+	// These icons have both a custom default and explicit theme variants.
+	// An explicit theme must not silently return the auto-themed base file.
+	for _, name := range []string{
+		"ansible", "chainlink", "fastapi", "flask", "gitlab", "golang",
+		"infura", "javascript", "mongodb", "nginx", "typescript",
+	} {
+		for _, theme := range []string{"dark", "light"} {
+			t.Run(name+"/"+theme, func(t *testing.T) {
+				assertIconResponse(t, name, theme, name+"-"+theme+".svg")
+			})
+		}
+	}
+}
+
 func assertIconResponse(t *testing.T, name, theme, asset string) {
 	t.Helper()
 	expected, err := os.ReadFile("../assets/" + asset)

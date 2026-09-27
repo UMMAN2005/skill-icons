@@ -1,10 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" id="uv">
-  <style>
-    #uv .uv-bg { fill: #1A1A1A; }
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256" viewBox="0 0 256 256" fill="none"><style>
+    .uv-auto-bg { fill: #242938; }
     @media (prefers-color-scheme: light) {
-      #uv .uv-bg { fill: #F5F5F5; }
+      .uv-auto-bg { fill: #F4F2ED; }
     }
-  </style>
-  <rect class="uv-bg" width="256" height="256" rx="60"/>
-  <text x="128" y="162" text-anchor="middle" font-family="Arial Black,Helvetica Neue,sans-serif" font-weight="900" font-size="110" fill="#DE3163" letter-spacing="-4">uv</text>
-</svg>
+  </style><rect width="256" height="256" rx="60" fill="#242938" class="uv-auto-bg" /><g transform="translate(28 28) scale(4.878049)"><g fill="none">
+<path d="M-5.28619e-06 0.168629L0.0843098 20.1685L0.151762 36.1683C0.161075 38.3774 1.95947 40.1607 4.16859 40.1514L20.1684 40.084L30.1684 40.0418L31.1852 40.0375C33.3877 40.0282 35.1683 38.2026 35.1683 36V36L37.0003 36L37.0003 39.9992L40.1683 39.9996L39.9996 -9.94653e-07L21.5998 0.0775689L21.6774 16.0185L21.6774 25.9998L20.0774 25.9998L18.3998 25.9998L18.4774 16.032L18.3998 0.0910593L-5.28619e-06 0.168629Z" fill="#DE5FE9" /></g></g></svg>

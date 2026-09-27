@@ -1,0 +1,407 @@
+{
+  "sources": {
+    "backstage": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/831f27a0cf4227b1b76a28ff51a9f4127a2195ec/projects/backstage/icon/color/backstage-icon-color.svg",
+      "sha256": "04cf977cf3fea6e7228883a3b3c7c9e1079aeb8077ce50f8d54df6b5957f733b",
+      "file": "backstage.svg"
+    },
+    "backstage-black": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/831f27a0cf4227b1b76a28ff51a9f4127a2195ec/projects/backstage/icon/black/backstage-icon-black.svg",
+      "sha256": "c10066c9dca6534e742a771354cd78cde85b16ab31ce74cff2de0da931fd8c5d",
+      "file": "backstage-black.svg"
+    },
+    "bootstrap": {
+      "url": "https://raw.githubusercontent.com/twbs/bootstrap/46a88042b323d78c580352085ca60afca5c6c405/site/static/docs/%5Bversion%5D/assets/brand/bootstrap-logo.svg",
+      "sha256": "df11d37a123e36a768f2a6064973c4c6ab17d1e3c6501c8bf434ca5c0134c9a2",
+      "file": "bootstrap.svg"
+    },
+    "certmanager": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/831f27a0cf4227b1b76a28ff51a9f4127a2195ec/projects/cert-manager/icon/color/cert-manager-icon-color.svg",
+      "sha256": "95f2f3599af9f25ebfab5e37567cc4cbfab2e2eda9dc2dd167d2dc8f86c59ef8",
+      "file": "certmanager.svg"
+    },
+    "cilium": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/831f27a0cf4227b1b76a28ff51a9f4127a2195ec/projects/cilium/icon/color/cilium_icon-color.svg",
+      "sha256": "b36a549db4a7b2a00a916b080cee8cee2f6ab59f76b91d8146ac9870e623cc67",
+      "file": "cilium.svg"
+    },
+    "crossplane": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/831f27a0cf4227b1b76a28ff51a9f4127a2195ec/projects/crossplane/icon/color/crossplane-icon-color.svg",
+      "sha256": "79f72a5cd3c21a760bffabe60d953c75f06d8de8820e70ba0911a782a2d69fb3",
+      "file": "crossplane.svg"
+    },
+    "css": {
+      "url": "https://raw.githubusercontent.com/CSS-Next/logo.css/48f24dccd4e169118d17bab998c3d276e95167df/css.svg",
+      "sha256": "28dceb38651b6d3d43119bae6f56dc6dd76415cfedd4a718afcd61fc7bec8ba3",
+      "file": "css.svg"
+    },
+    "externalsecrets": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/831f27a0cf4227b1b76a28ff51a9f4127a2195ec/projects/external-secrets-operator/icon/color/eso-icon-color.svg",
+      "sha256": "515be6601856c792fa8599f289472fec0c5092c79aa75c7f212e2586ac0cd1ad",
+      "file": "externalsecrets.svg"
+    },
+    "falco": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/831f27a0cf4227b1b76a28ff51a9f4127a2195ec/projects/falco/icon/color/falco-icon-color.svg",
+      "sha256": "bf9150b6fca5c518f45befc9f84854189ca9d28e9c7ea3e6793f2ea653cd13d5",
+      "file": "falco.svg"
+    },
+    "haproxy": {
+      "url": "https://cdn.haproxy.com/assets/our_logos/haproxy-icon.svg",
+      "sha256": "5b09f3fc5a0c12d4a2ff6db9fbaa9753e408db10b882d06a624a491bcb718241",
+      "file": "haproxy.svg"
+    },
+    "harbor": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/831f27a0cf4227b1b76a28ff51a9f4127a2195ec/projects/harbor/icon/color/harbor-icon-color.svg",
+      "sha256": "874d9348f306fddadc620f3029ab62545ac1054c53f7acf41e4b862a123d8391",
+      "file": "harbor.svg"
+    },
+    "kargo-vector": {
+      "url": "https://raw.githubusercontent.com/akuity/kargo/ccf601bd8fbf6a64e6a3ec9ceb4ace54d2f4c77e/ui/public/kargo-logo-head-only.png",
+      "upstream_sha256": "7bb35ab75a7bef1c75c36b5372e2634e026b3ebb5dc00ca777dbedfe6a7ab924",
+      "upstream_file": "kargo-head.png",
+      "file": "kargo-vector.svg",
+      "sha256": "3a582572c7e56d10486c6ff3cb7fd283fbab2cb7afea3291fc61367cd8ac5a2a",
+      "conversion": "vtracer 0.6.15: colormode=color, hierarchical=stacked, mode=spline, filter_speckle=4, color_precision=6, layer_difference=16, corner_threshold=60, length_threshold=4, max_iterations=10, splice_threshold=45, path_precision=3"
+    },
+    "kubescape": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/831f27a0cf4227b1b76a28ff51a9f4127a2195ec/projects/kubescape/icon/color/kubescape-icon-color.svg",
+      "sha256": "9fcdae3b66e9f1aef97732e046ec11530bf7d91a126cb82f6f16a63b1301bba0",
+      "file": "kubescape.svg"
+    },
+    "kuma": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/831f27a0cf4227b1b76a28ff51a9f4127a2195ec/projects/kuma/icon/color/kuma-icon-color.svg",
+      "sha256": "fc005afd02ff40513b87fd6aca27148f694599e5ad1715b95c8ee29f97d6ea36",
+      "file": "kuma.svg"
+    },
+    "kuma-white": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/831f27a0cf4227b1b76a28ff51a9f4127a2195ec/projects/kuma/icon/white/kuma-icon-white.svg",
+      "sha256": "40466ee4add29e400c6c130a275af8666872dbc8e5f3235fe1aa56bb028a52eb",
+      "file": "kuma-white.svg"
+    },
+    "kyverno": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/831f27a0cf4227b1b76a28ff51a9f4127a2195ec/projects/kyverno/icon/color/kyverno-icon-color.svg",
+      "sha256": "41b8a114fe1856b62caeb600c665724d3caeade4ecd9350fb07c0d1e42ba2f92",
+      "file": "kyverno.svg"
+    },
+    "loki": {
+      "url": "https://grafana.com/static/img/logos/logo-loki.svg",
+      "sha256": "f80204863f46cda4ef4f5da0ced6457358df3773e6599ae2bd12189c9d4e3414",
+      "file": "loki.svg"
+    },
+    "longhorn": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/831f27a0cf4227b1b76a28ff51a9f4127a2195ec/projects/longhorn/icon/color/longhorn-icon-color.svg",
+      "sha256": "aea36a2d8b74e193e918c16c93e27395488f5569c9468092ea3baec1cd329969",
+      "file": "longhorn.svg"
+    },
+    "mimir": {
+      "url": "https://grafana.com/static/img/logos/logo-mimir.svg",
+      "sha256": "f124b734ea21bafbd5f186aff3f184b32972b3894b8f103a33b68e987da4af30",
+      "file": "mimir.svg"
+    },
+    "nix": {
+      "url": "https://raw.githubusercontent.com/NixOS/nixos-artwork/9d2cdedd73d64a068214482902adea3d02783ba8/logo/nix-snowflake-colours.svg",
+      "sha256": "e37b5a1c11e81496e9d46af04908951ada6babaa416d670aaae4934cce912eb2",
+      "file": "nix.svg"
+    },
+    "opa": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/831f27a0cf4227b1b76a28ff51a9f4127a2195ec/projects/open-policy-agent/icon/color/opa-icon-color.svg",
+      "sha256": "41433b33d8b0c021a551cc92a9e49f2766215c16e26b61c71fff974c59f6074d",
+      "file": "opa.svg"
+    },
+    "opentofu": {
+      "url": "https://raw.githubusercontent.com/opentofu/brand-artifacts/589e4111bcf8de39fae9dfb2b8659f7f5373a92b/symbol-only/transparent/SVG/on-light.svg",
+      "sha256": "8bbde074dfc2b0e31461a10a7a08ad6c43b3273f5fc3fc334459ee4c54570ec8",
+      "file": "opentofu.svg"
+    },
+    "opentofu-dark": {
+      "url": "https://raw.githubusercontent.com/opentofu/brand-artifacts/589e4111bcf8de39fae9dfb2b8659f7f5373a92b/symbol-only/transparent/SVG/on-dark.svg",
+      "sha256": "4b602024bd4ed61604a8dc39153eb485d79ae7abe8e661130e21333653113cc5",
+      "file": "opentofu-dark.svg"
+    },
+    "pyroscope": {
+      "url": "https://grafana.com/static/img/pyroscope-logo.svg",
+      "sha256": "559341996765c2d5639a2818d76bcd88ffe252212193a573f2f9f77dae5064dd",
+      "file": "pyroscope.svg"
+    },
+    "rke2": {
+      "url": "https://raw.githubusercontent.com/rancher/rke2-docs/49adc241cacda017061fa71080e03ff02f8254d3/static/img/logo-stacked-black-rke2.svg",
+      "sha256": "3a763465137831bad68191671e5f2c0061c3ccfaf5149cbd56423c581b7ef7e1",
+      "file": "rke2.svg"
+    },
+    "rke2-white": {
+      "url": "https://raw.githubusercontent.com/rancher/rke2-docs/49adc241cacda017061fa71080e03ff02f8254d3/static/img/logo-stacked-white-rke2.svg",
+      "sha256": "c386899e11b49731edc557bc9b7f8bc5f78aeb0bce480274542343691fa4005e",
+      "file": "rke2-white.svg"
+    },
+    "talos": {
+      "url": "https://raw.githubusercontent.com/siderolabs/docs/67daa278b9378db3da5b80f6cb38f41db37baa2d/public/images/talos.svg",
+      "sha256": "251abe3a42afc21bb510ba40833f71c3dac9fe8426c3b2d22bb6f4bb2b915a69",
+      "file": "talos.svg"
+    },
+    "tempo": {
+      "url": "https://grafana.com/static/assets/img/logos/grafana-tempo.svg",
+      "sha256": "bf2aa0089c2e8693400b76c22f745a92bb5d35de7fb63180ecdab05e03a758df",
+      "file": "tempo.svg"
+    },
+    "terragrunt": {
+      "url": "https://raw.githubusercontent.com/gruntwork-io/terragrunt/17667115bb37a5c72a44962b418eba4471f625b0/docs/src/assets/icons/terragrunt-icon.svg",
+      "sha256": "5ec728399b66332fcebffb1e1624b8ec124ba72b0892738ba44f4bd4454c9310",
+      "file": "terragrunt.svg"
+    },
+    "trivy": {
+      "url": "https://raw.githubusercontent.com/aquasecurity/trivy/ae561f8cca36b4b11434b0a6d171b39ec1ad871e/brand/Trivy-OSS-Logo-Color-Stacked-RGB.svg",
+      "sha256": "fca3a95008ce5e3827a6318c9017dfb9e571cd944b59f54e669b93b1b7df0191",
+      "file": "trivy.svg"
+    },
+    "trivy-white": {
+      "url": "https://raw.githubusercontent.com/aquasecurity/trivy/ae561f8cca36b4b11434b0a6d171b39ec1ad871e/brand/Trivy-OSS-Logo-White-Stacked-RGB.svg",
+      "sha256": "e8d7cf2c6c41eae24544b6962563c2c96d6a715bed6e1e0a5f571e77394bcbce",
+      "file": "trivy-white.svg"
+    },
+    "uv": {
+      "url": "https://raw.githubusercontent.com/astral-sh/uv/136ef97330781a0f5f2be6613aac4382ebbcecea/docs/assets/logo-letter.svg",
+      "sha256": "fc5aeabf925cbdaba99f4e86635eeef2d47a5ecd715d7994490ef9082fd12bfb",
+      "file": "uv.svg"
+    }
+  },
+  "icons": {
+    "backstage": {
+      "dark": {
+        "source": "backstage"
+      },
+      "light": {
+        "source": "backstage-black"
+      }
+    },
+    "bootstrap": {
+      "dark": {
+        "source": "bootstrap"
+      },
+      "light": {
+        "source": "bootstrap"
+      }
+    },
+    "certmanager": {
+      "dark": {
+        "source": "certmanager"
+      },
+      "light": {
+        "source": "certmanager"
+      }
+    },
+    "cilium": {
+      "dark": {
+        "source": "cilium"
+      },
+      "light": {
+        "source": "cilium"
+      }
+    },
+    "crossplane": {
+      "dark": {
+        "source": "crossplane"
+      },
+      "light": {
+        "source": "crossplane"
+      }
+    },
+    "css": {
+      "dark": {
+        "source": "css",
+        "select": ".//*[@id='fg']",
+        "size": 256
+      },
+      "light": {
+        "source": "css",
+        "select": ".//*[@id='fg']",
+        "size": 256
+      },
+      "backgrounds": {
+        "dark": "#663399",
+        "light": "#663399"
+      }
+    },
+    "externalsecrets": {
+      "dark": {
+        "source": "externalsecrets"
+      },
+      "light": {
+        "source": "externalsecrets"
+      }
+    },
+    "falco": {
+      "dark": {
+        "source": "falco"
+      },
+      "light": {
+        "source": "falco"
+      }
+    },
+    "haproxy": {
+      "dark": {
+        "source": "haproxy"
+      },
+      "light": {
+        "source": "haproxy"
+      }
+    },
+    "harbor": {
+      "dark": {
+        "source": "harbor"
+      },
+      "light": {
+        "source": "harbor"
+      }
+    },
+    "kargo": {
+      "dark": {
+        "source": "kargo-vector"
+      },
+      "light": {
+        "source": "kargo-vector"
+      }
+    },
+    "kubescape": {
+      "dark": {
+        "source": "kubescape"
+      },
+      "light": {
+        "source": "kubescape"
+      }
+    },
+    "kuma": {
+      "dark": {
+        "source": "kuma-white"
+      },
+      "light": {
+        "source": "kuma"
+      }
+    },
+    "kyverno": {
+      "dark": {
+        "source": "kyverno"
+      },
+      "light": {
+        "source": "kyverno"
+      }
+    },
+    "loki": {
+      "dark": {
+        "source": "loki"
+      },
+      "light": {
+        "source": "loki"
+      }
+    },
+    "longhorn": {
+      "dark": {
+        "source": "longhorn"
+      },
+      "light": {
+        "source": "longhorn"
+      }
+    },
+    "mimir": {
+      "dark": {
+        "source": "mimir"
+      },
+      "light": {
+        "source": "mimir"
+      }
+    },
+    "nix": {
+      "dark": {
+        "source": "nix",
+        "viewBox": "-7.5 20.7 516.6 459.7"
+      },
+      "light": {
+        "source": "nix",
+        "viewBox": "-7.5 20.7 516.6 459.7"
+      }
+    },
+    "opa": {
+      "dark": {
+        "source": "opa"
+      },
+      "light": {
+        "source": "opa"
+      }
+    },
+    "opentofu": {
+      "dark": {
+        "source": "opentofu-dark"
+      },
+      "light": {
+        "source": "opentofu"
+      }
+    },
+    "pyroscope": {
+      "dark": {
+        "source": "pyroscope"
+      },
+      "light": {
+        "source": "pyroscope"
+      }
+    },
+    "rke2": {
+      "dark": {
+        "source": "rke2-white",
+        "viewBox": "0 0 138.81107 117.02",
+        "select": "./s:g/s:g[1]"
+      },
+      "light": {
+        "source": "rke2",
+        "remove": [
+          "./s:g/s:g"
+        ],
+        "viewBox": "0 0 138.81107 117.02"
+      }
+    },
+    "talos": {
+      "dark": {
+        "source": "talos"
+      },
+      "light": {
+        "source": "talos"
+      }
+    },
+    "tempo": {
+      "dark": {
+        "source": "tempo"
+      },
+      "light": {
+        "source": "tempo"
+      }
+    },
+    "terragrunt": {
+      "dark": {
+        "source": "terragrunt",
+        "viewBox": "2.71 0.98 15.64 18.01"
+      },
+      "light": {
+        "source": "terragrunt",
+        "viewBox": "2.71 0.98 15.64 18.01"
+      }
+    },
+    "trivy": {
+      "dark": {
+        "source": "trivy-white",
+        "select": "./s:switch/s:g/s:g/s:g[3]",
+        "viewBox": "242.98 119.15 384.74 443.05"
+      },
+      "light": {
+        "source": "trivy",
+        "select": "./s:switch/s:g/s:g/s:g[3]",
+        "viewBox": "232.32 118.02 397.78 458.06"
+      }
+    },
+    "uv": {
+      "dark": {
+        "source": "uv"
+      },
+      "light": {
+        "source": "uv"
+      }
+    }
+  }
+}
