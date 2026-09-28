@@ -154,13 +154,46 @@ func TestExplicitThemesForIconsWithBaseAssets(t *testing.T) {
 	for _, name := range []string{
 		"ansible", "chainlink", "fastapi", "flask", "gitlab", "golang",
 		"infura", "javascript", "mongodb", "nginx", "typescript",
-		"cpp", "cs", "sentry",
+		"cpp", "cs", "sentry", "c", "windows11", "mongoose",
 	} {
 		for _, theme := range []string{"dark", "light"} {
 			t.Run(name+"/"+theme, func(t *testing.T) {
 				assertIconResponse(t, name, theme, name+"-"+theme+".svg")
 			})
 		}
+	}
+}
+
+func TestLatestRequestedIcons(t *testing.T) {
+	for _, name := range []string{
+		"c", "istio", "opencost", "mongoose", "flutter",
+		"firebase", "sqlalchemy", "riverpod", "hyperledger",
+		"kaleido", "windows11",
+	} {
+		for _, theme := range []string{"", "dark", "light"} {
+			assetTheme := theme
+			if assetTheme == "" {
+				assetTheme = "auto"
+			}
+			t.Run(name+"/"+theme, func(t *testing.T) {
+				assertIconResponse(t, name, theme, name+"-"+assetTheme+".svg")
+			})
+		}
+	}
+
+	for _, alias := range []struct {
+		input, target string
+	}{
+		{"win11", "windows11-auto.svg"},
+		{"hlf", "hyperledger-auto.svg"},
+		{"hyperledgerfabric", "hyperledger-auto.svg"},
+		{"hyperledger-fabric", "hyperledger-auto.svg"},
+		{"cost", "opencost-auto.svg"},
+		{"open-cost", "opencost-auto.svg"},
+	} {
+		t.Run("alias/"+alias.input, func(t *testing.T) {
+			assertIconResponse(t, alias.input, "", alias.target)
+		})
 	}
 }
 

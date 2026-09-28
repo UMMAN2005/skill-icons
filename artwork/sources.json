@@ -261,6 +261,66 @@
       "url": "https://raw.githubusercontent.com/cncf/artwork/831f27a0cf4227b1b76a28ff51a9f4127a2195ec/projects/tekton/icon/white/tekton-icon-white.svg",
       "sha256": "b255056ef773b84d9df80d732ed7570fd151fe9d2f1d43d9956da88866b99bad",
       "file": "tekton-white.svg"
+    },
+    "c": {
+      "url": "https://raw.githubusercontent.com/isocpp/logos/64ef037049f87ac74875dbe72695e59118b52186/cpp_logo.svg",
+      "sha256": "42333e63b0184cb6ecf857921e8952881ccb2c9f34e3251b0721e742ba3ba332",
+      "file": "c.svg"
+    },
+    "istio": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/main/projects/istio/icon/color/istio-icon-color.svg",
+      "sha256": "f5d5e6e64b794721fc698e05fd64004f73efbe2a3bdedf3a20394db44b71c889",
+      "file": "istio.svg"
+    },
+    "opencost": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/main/projects/opencost/icon/color/Opencost_Icon_Color.svg",
+      "sha256": "6d51de453044478901346540de4c7adbb5207bcb8e4d3471358b704fe42eff6c",
+      "file": "opencost.svg"
+    },
+    "opencost-white": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/main/projects/opencost/icon/white/Opencost_Icon_White.svg",
+      "sha256": "6e4917159ddde29d3ab52871ee8daae1e86d228d1f47c8edb394950516a25cbb",
+      "file": "opencost-white.svg"
+    },
+    "mongoose": {
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongoose/mongoose-original.svg",
+      "sha256": "ff44cc80f119b5c4ae23bb4afeb4a1bca3c343565ad6e7cbf8cb3ea7e47db3d0",
+      "file": "mongoose.svg"
+    },
+    "flutter": {
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg",
+      "sha256": "c188249043aecad16b31eaa230474643270a8d8200b897af54a97949cb88e4ae",
+      "file": "flutter.svg"
+    },
+    "firebase": {
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-original.svg",
+      "sha256": "6069e979418301117abe2223b62ffb9cedd8c5118fbd805da77170629eaef49c",
+      "file": "firebase.svg"
+    },
+    "sqlalchemy": {
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlalchemy/sqlalchemy-original.svg",
+      "sha256": "f7cd6f77f031d112250e3fff789a616d5fdd9a7be95856cf3adf1c9d7e30882a",
+      "file": "sqlalchemy.svg"
+    },
+    "riverpod": {
+      "url": "https://raw.githubusercontent.com/rrousselGit/riverpod/master/website/static/img/logo.svg",
+      "sha256": "305e670af5e55404329bcc9aadc9d5e279294d4602938c0882f34c641cc45658",
+      "file": "riverpod.svg"
+    },
+    "hyperledger": {
+      "url": "https://www.svgrepo.com/show/330663/hyperledger.svg",
+      "sha256": "e8a1cbf940ca0ffc28eb831132f474a5d8405113b8540dbf7d673d7ad580de35",
+      "file": "hyperledger.svg"
+    },
+    "kaleido": {
+      "url": "https://www.datocms-assets.com/2885/1660169904-kaleido_logo_horizontal_primary.svg",
+      "sha256": "78751f1eac35eec338824256af6b1d122aa2d4b6350fab04992b4472b5342320",
+      "file": "kaleido.svg"
+    },
+    "windows11": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg",
+      "sha256": "4dae3e589ec827aad4ba6e031bf88eeec97d998513ec11e94d0367c1a97e9b97",
+      "file": "windows11.svg"
     }
   },
   "icons": {
@@ -652,6 +712,134 @@
         "colors": {
           "white": "#362D59"
         }
+      },
+      "base": true
+    },
+    "c": {
+      "dark": {
+        "source": "c",
+        "size": 200
+      },
+      "light": {
+        "source": "c",
+        "size": 200
+      },
+      "base": true
+    },
+    "istio": {
+      "dark": {
+        "source": "istio",
+        "size": 195,
+        "colors": {
+          "#516baa": "#5B8BF5"
+        }
+      },
+      "light": {
+        "source": "istio",
+        "size": 195
+      }
+    },
+    "opencost": {
+      "dark": {
+        "source": "opencost-white",
+        "size": 195
+      },
+      "light": {
+        "source": "opencost",
+        "size": 195
+      }
+    },
+    "mongoose": {
+      "dark": {
+        "source": "mongoose",
+        "size": 195,
+        "colors": {
+          "#850000": "#E53935"
+        }
+      },
+      "light": {
+        "source": "mongoose",
+        "size": 195
+      },
+      "base": true
+    },
+    "flutter": {
+      "dark": {
+        "source": "flutter",
+        "size": 190
+      },
+      "light": {
+        "source": "flutter",
+        "size": 190
+      }
+    },
+    "firebase": {
+      "dark": {
+        "source": "firebase",
+        "size": 195
+      },
+      "light": {
+        "source": "firebase",
+        "size": 195
+      }
+    },
+    "sqlalchemy": {
+      "dark": {
+        "source": "sqlalchemy",
+        "size": 195,
+        "colors": {
+          "#333": "#FFFFFF"
+        }
+      },
+      "light": {
+        "source": "sqlalchemy",
+        "size": 195
+      }
+    },
+    "riverpod": {
+      "dark": {
+        "source": "riverpod",
+        "size": 190
+      },
+      "light": {
+        "source": "riverpod",
+        "size": 190
+      }
+    },
+    "hyperledger": {
+      "dark": {
+        "source": "hyperledger",
+        "size": 195,
+        "colors": {
+          "#2f3136": "#FFFFFF"
+        }
+      },
+      "light": {
+        "source": "hyperledger",
+        "size": 195
+      }
+    },
+    "kaleido": {
+      "dark": {
+        "source": "kaleido",
+        "size": 190,
+        "colors": {
+          "#462de0": "#7C65FF"
+        }
+      },
+      "light": {
+        "source": "kaleido",
+        "size": 190
+      }
+    },
+    "windows11": {
+      "dark": {
+        "source": "windows11",
+        "size": 180
+      },
+      "light": {
+        "source": "windows11",
+        "size": 180
       },
       "base": true
     }
