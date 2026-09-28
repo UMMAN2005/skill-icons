@@ -321,6 +321,186 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg",
       "sha256": "4dae3e589ec827aad4ba6e031bf88eeec97d998513ec11e94d0367c1a97e9b97",
       "file": "windows11.svg"
+    },
+    "ansible-white": {
+      "url": "https://raw.githubusercontent.com/ansible/logos/main/Ansible-Inverted-Mark-RGB.svg",
+      "sha256": "87a9391a5e6c1a8010d1618d6f2a8c1059a4a2f970b0a0057e85e661df5d12b7",
+      "file": "ansible-white.svg"
+    },
+    "ansible-black": {
+      "url": "https://raw.githubusercontent.com/ansible/logos/main/Ansible-Mark-RGB.svg",
+      "sha256": "7129fc155b65c4cb396bf9746866a6e6e76d465cb1bc0813b0829b5b4c87302d",
+      "file": "ansible-black.svg"
+    },
+    "nginx": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/main/projects/nginx/icon/color/nginx-icon-color.svg",
+      "sha256": "b4c09e23fc8e0914fc00d2873b940a6051daef009ac640953d098003de00f1c6",
+      "file": "nginx.svg"
+    },
+    "sops": {
+      "url": "https://raw.githubusercontent.com/getsops/sops/master/sops.svg",
+      "sha256": "374f667db8bbbbaf8825136094ab1e1765f471d53dcc69dc47d24d04f16dcc60",
+      "file": "sops.svg"
+    },
+    "buildpacks": {
+      "url": "https://raw.githubusercontent.com/buildpacks/artwork/main/logo/buildpacks-icon-color.svg",
+      "sha256": "30f4454ba4baa11d4a99b92cf86ebac227d58bfeeaa3a1cdcc7f15feaa962258",
+      "file": "buildpacks.svg"
+    },
+    "artifacthub": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/main/projects/artifact-hub/icon/color/artifact-hub-icon-color.svg",
+      "sha256": "88cdfb8dc2928cbdc309e14b92cb4197af3a6a227786b525c02d22df6c11494a",
+      "file": "artifacthub.svg"
+    },
+    "cloudnativepg": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/main/projects/cloudnative-pg/icon/color/cloudnative-pg-icon-color.svg",
+      "sha256": "dfff713c4ca1cb7cdcb3328e2b93b05d6bfd8ef8f7c26efcf0d83fbbdebb0c07",
+      "file": "cloudnativepg.svg"
+    },
+    "k9s": {
+      "url": "https://raw.githubusercontent.com/derailed/k9s/master/assets/k9s.svg",
+      "sha256": "9b6defbe1e5ab6b2fbf2cbb8545a3be6c9363c26c06c976d222142942b33b51c",
+      "file": "k9s.svg"
+    },
+    "k6": {
+      "url": "https://raw.githubusercontent.com/grafana/k6/master/assets/k6_logo.svg",
+      "sha256": "62582483b076f0d0e41901414aec8a46ab1154e5b579d3a40c86d6084eb13538",
+      "file": "k6.svg"
+    },
+    "kaniko": {
+      "url": "https://raw.githubusercontent.com/GoogleContainerTools/kaniko/master/kaniko.svg",
+      "sha256": "71d7b19142b8198702d615c90b9d21b4333b3a8e855eeea2999a5db8eccebb62",
+      "file": "kaniko.svg"
+    },
+    "nexus": {
+      "url": "https://raw.githubusercontent.com/sonatype/nexus-public/master/assets/nexus.svg",
+      "sha256": "fa1480c8edd256b2ad80bd1309fa9510a7318dd3de9139f0dff55f170a00a230",
+      "file": "nexus.svg"
+    },
+    "nexus-dark": {
+      "url": "https://raw.githubusercontent.com/sonatype/nexus-public/master/assets/nexus-dark.svg",
+      "sha256": "0ca2da6a4cc69420b8b01f9723a1f862b9a348accde1590cff42dd35154af87a",
+      "file": "nexus-dark.svg"
+    },
+    "openfaas": {
+      "url": "https://raw.githubusercontent.com/openfaas/artwork/master/icon/openfaas-icon-color.svg",
+      "sha256": "5d557c6c678513c2a6b99dddbd22286f0793ea0ff52d5446825490f177052a65",
+      "file": "openfaas.svg"
+    },
+    "keda": {
+      "url": "https://raw.githubusercontent.com/cncf/landscape/master/hosted_logos/keda.svg",
+      "sha256": "3fa88e7b7776cd5420d51b0edf70164ee15edebb581e445c63a3f3b497397b6a",
+      "file": "keda.svg"
+    },
+    "telepresence": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/main/projects/telepresence/icon/color/telepresence-icon-color.svg",
+      "sha256": "9e3b1b2f0b3cbc271186834ef2da2f1b45d08e1c33c720e27f1edb3b5749039e",
+      "file": "telepresence.svg"
+    },
+    "flagger": {
+      "url": "https://raw.githubusercontent.com/fluxcd/flagger/main/docs/logo/flagger-icon.svg",
+      "sha256": "b82070a6536135d12ec772b4d47973d2c3dd201ccf133bab6e01e966b6b34d50",
+      "file": "flagger.svg"
+    },
+    "knative": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/main/projects/knative/icon/color/knative-icon-color.svg",
+      "sha256": "f6b52d202ee7ea2f6e0ae41e02c4a743c2c4bfb509f88ec5ca9707007034c7b7",
+      "file": "knative.svg"
+    },
+    "coredns": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/main/projects/coredns/icon/color/coredns-icon-color.svg",
+      "sha256": "666fab0f41ee8cfe8cd7f5671dce2b0b76fc791c39e79488b914160048708809",
+      "file": "coredns.svg"
+    },
+    "kubevip": {
+      "url": "https://raw.githubusercontent.com/kube-vip/kube-vip/main/docs/img/kube-vip.svg",
+      "sha256": "75d9723a0660b1507775429196bc1823f03d20eec354455557db9dc357896e16",
+      "file": "kubevip.svg"
+    },
+    "calico": {
+      "url": "https://raw.githubusercontent.com/projectcalico/calico/master/calico.svg",
+      "sha256": "beba10798068390938d96ffc585946db161a5729a56d831ff2645d92caef7760",
+      "file": "calico.svg"
+    },
+    "flannel": {
+      "url": "https://raw.githubusercontent.com/flannel-io/flannel/master/flannel.svg",
+      "sha256": "29012306681d5095018431ca47ce661fa40a4ba89afa4fb4afa201728feb2ffc",
+      "file": "flannel.svg"
+    },
+    "cni": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/main/projects/cni/icon/color/cni-icon-color.svg",
+      "sha256": "2aa2226689ec4e81d852fcc5bea43dfe07314b9b99b6ec509a5d4e5143c9ae53",
+      "file": "cni.svg"
+    },
+    "containerd": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/main/projects/containerd/icon/color/containerd-icon-color.svg",
+      "sha256": "eafe28eeeb362a96ed409f104a7beceaa94009c83ac8d35a5aa71a359e2b9d73",
+      "file": "containerd.svg"
+    },
+    "kubebench": {
+      "url": "https://raw.githubusercontent.com/aquasecurity/kube-bench/main/images/kube-bench.svg",
+      "sha256": "f9268cf73cf276255cc5c4cf423e870cc27c293b8c293741150702c4a0a2dadb",
+      "file": "kubebench.svg"
+    },
+    "syft": {
+      "url": "https://raw.githubusercontent.com/anchore/syft/main/syft.svg",
+      "sha256": "f0b4b51f94f8309e9ab1edaca0b1cdfd155187d11267415f3794dcee51bc56d5",
+      "file": "syft.svg"
+    },
+    "grype": {
+      "url": "https://raw.githubusercontent.com/anchore/grype/main/grype.svg",
+      "sha256": "da2a2d61b5bb062e264b13ca775c012e462a9b02ccabf797ab0669c417e009da",
+      "file": "grype.svg"
+    },
+    "makefile": {
+      "url": "https://raw.githubusercontent.com/moby/moby/master/docs/makefile.svg",
+      "sha256": "a6d8260757abc4928a488455272a9b486b8aa317cd7c198150ad1a885d9da748",
+      "file": "makefile.svg"
+    },
+    "taskfile": {
+      "url": "https://raw.githubusercontent.com/go-task/task/main/docs/static/img/logo.svg",
+      "sha256": "31bbfbd9df5d3c426b567ee3fc71f3a345dd8d6716a3220cdc5a18447acb3008",
+      "file": "taskfile.svg"
+    },
+    "hurl": {
+      "url": "https://raw.githubusercontent.com/Orange-OpenSource/hurl/master/docs/logo.svg",
+      "sha256": "e25cc11a310b2688b15ad7d90050cd9c2f0e6b7792886b10d335767961a28198",
+      "file": "hurl.svg"
+    },
+    "beats": {
+      "url": "https://raw.githubusercontent.com/elastic/beats/master/beats.svg",
+      "sha256": "a4b8ac49b4f1bed3d0f258c3ee08fc7cb4f93d3e98e88004eeaddc49a3b9d255",
+      "file": "beats.svg"
+    },
+    "hubble": {
+      "url": "https://raw.githubusercontent.com/cilium/hubble/master/hubble.svg",
+      "sha256": "953dbc00f7346dd0f7a79f45e48f642772732f4b54ebeb25d06dfeb0734461a2",
+      "file": "hubble.svg"
+    },
+    "tetragon": {
+      "url": "https://raw.githubusercontent.com/cilium/tetragon/master/tetragon.svg",
+      "sha256": "a71d4f87b36df1936403550b7f0a146ec96c5781eb97f561784521f6fd98f075",
+      "file": "tetragon.svg"
+    },
+    "robusta": {
+      "url": "https://raw.githubusercontent.com/robusta-dev/robusta/master/robusta.svg",
+      "sha256": "397372f7ba4fc41a223780ffb4374bd3b30342ae398b664a867573728cb87131",
+      "file": "robusta.svg"
+    },
+    "armo": {
+      "url": "https://raw.githubusercontent.com/armosec/armo/main/armo.svg",
+      "sha256": "4a33a40faae2348ba3178a1d23370f649e0b3d139967b2a4a6827308219215b0",
+      "file": "armo.svg"
+    },
+    "metamask": {
+      "url": "https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg",
+      "sha256": "b855851451c3eb7220bc7331d6cf7f19dad4580ebc35610211f028848ba7fc34",
+      "file": "metamask.svg"
+    },
+    "rabby": {
+      "url": "https://raw.githubusercontent.com/RabbyHub/rabby-brand/main/rabby-logo.svg",
+      "sha256": "5da82f873b410c7b1531ca61c2a82d691b0c5181e6c4fad7010660366ca623ef",
+      "file": "rabby.svg"
     }
   },
   "icons": {
@@ -842,6 +1022,379 @@
         "size": 180
       },
       "base": true
+    },
+    "ansible": {
+      "dark": {
+        "source": "ansible-white",
+        "viewBox": "46.2 46.12 213.6 213.6",
+        "size": 185
+      },
+      "light": {
+        "source": "ansible-black",
+        "viewBox": "46.2 46.12 213.6 213.6",
+        "size": 185
+      },
+      "base": true
+    },
+    "nginx": {
+      "dark": {
+        "source": "nginx",
+        "size": 195
+      },
+      "light": {
+        "source": "nginx",
+        "size": 195
+      },
+      "base": true
+    },
+    "sops": {
+      "dark": {
+        "source": "sops",
+        "remove": [
+          "./s:g/s:rect"
+        ],
+        "viewBox": "112 210 276 80",
+        "size": 200
+      },
+      "light": {
+        "source": "sops",
+        "remove": [
+          "./s:g/s:rect"
+        ],
+        "viewBox": "112 210 276 80",
+        "size": 200,
+        "colors": {
+          "#fafafa": "#242938"
+        }
+      }
+    },
+    "buildpacks": {
+      "dark": {
+        "source": "buildpacks",
+        "size": 195
+      },
+      "light": {
+        "source": "buildpacks",
+        "size": 195
+      }
+    },
+    "artifacthub": {
+      "dark": {
+        "source": "artifacthub",
+        "size": 195
+      },
+      "light": {
+        "source": "artifacthub",
+        "size": 195
+      }
+    },
+    "cloudnativepg": {
+      "dark": {
+        "source": "cloudnativepg",
+        "size": 195
+      },
+      "light": {
+        "source": "cloudnativepg",
+        "size": 195
+      }
+    },
+    "k9s": {
+      "dark": {
+        "source": "k9s",
+        "colors": {
+          "#202020": "#FFFFFF"
+        },
+        "size": 210
+      },
+      "light": {
+        "source": "k9s",
+        "size": 210
+      }
+    },
+    "k6": {
+      "dark": {
+        "source": "k6",
+        "size": 195
+      },
+      "light": {
+        "source": "k6",
+        "size": 195
+      }
+    },
+    "kaniko": {
+      "dark": {
+        "source": "kaniko",
+        "size": 195
+      },
+      "light": {
+        "source": "kaniko",
+        "size": 195
+      }
+    },
+    "nexus": {
+      "dark": {
+        "source": "nexus-dark",
+        "size": 195
+      },
+      "light": {
+        "source": "nexus",
+        "size": 195
+      }
+    },
+    "openfaas": {
+      "dark": {
+        "source": "openfaas",
+        "size": 195
+      },
+      "light": {
+        "source": "openfaas",
+        "size": 195
+      }
+    },
+    "keda": {
+      "dark": {
+        "source": "keda",
+        "size": 195
+      },
+      "light": {
+        "source": "keda",
+        "size": 195
+      }
+    },
+    "telepresence": {
+      "dark": {
+        "source": "telepresence",
+        "size": 195
+      },
+      "light": {
+        "source": "telepresence",
+        "size": 195
+      }
+    },
+    "flagger": {
+      "dark": {
+        "source": "flagger",
+        "size": 195
+      },
+      "light": {
+        "source": "flagger",
+        "size": 195
+      }
+    },
+    "knative": {
+      "dark": {
+        "source": "knative",
+        "size": 195
+      },
+      "light": {
+        "source": "knative",
+        "size": 195
+      }
+    },
+    "coredns": {
+      "dark": {
+        "source": "coredns",
+        "size": 195
+      },
+      "light": {
+        "source": "coredns",
+        "size": 195
+      }
+    },
+    "kubevip": {
+      "dark": {
+        "source": "kubevip",
+        "size": 195
+      },
+      "light": {
+        "source": "kubevip",
+        "size": 195
+      }
+    },
+    "calico": {
+      "dark": {
+        "source": "calico",
+        "size": 195
+      },
+      "light": {
+        "source": "calico",
+        "size": 195
+      }
+    },
+    "flannel": {
+      "dark": {
+        "source": "flannel",
+        "size": 195
+      },
+      "light": {
+        "source": "flannel",
+        "size": 195
+      }
+    },
+    "cni": {
+      "dark": {
+        "source": "cni",
+        "size": 195
+      },
+      "light": {
+        "source": "cni",
+        "size": 195
+      }
+    },
+    "containerd": {
+      "dark": {
+        "source": "containerd",
+        "size": 195
+      },
+      "light": {
+        "source": "containerd",
+        "size": 195
+      }
+    },
+    "kubebench": {
+      "dark": {
+        "source": "kubebench",
+        "size": 195
+      },
+      "light": {
+        "source": "kubebench",
+        "size": 195
+      }
+    },
+    "syft": {
+      "dark": {
+        "source": "syft",
+        "size": 195
+      },
+      "light": {
+        "source": "syft",
+        "size": 195
+      }
+    },
+    "grype": {
+      "dark": {
+        "source": "grype",
+        "size": 195
+      },
+      "light": {
+        "source": "grype",
+        "size": 195
+      }
+    },
+    "makefile": {
+      "dark": {
+        "source": "makefile",
+        "size": 190
+      },
+      "light": {
+        "source": "makefile",
+        "size": 190
+      }
+    },
+    "taskfile": {
+      "dark": {
+        "source": "taskfile",
+        "size": 195
+      },
+      "light": {
+        "source": "taskfile",
+        "size": 195
+      }
+    },
+    "hurl": {
+      "dark": {
+        "source": "hurl",
+        "size": 195
+      },
+      "light": {
+        "source": "hurl",
+        "size": 195
+      }
+    },
+    "beats": {
+      "dark": {
+        "source": "beats",
+        "colors": {
+          "#353535": "#FFFFFF"
+        },
+        "size": 195
+      },
+      "light": {
+        "source": "beats",
+        "size": 195
+      }
+    },
+    "hubble": {
+      "dark": {
+        "source": "hubble",
+        "size": 195
+      },
+      "light": {
+        "source": "hubble",
+        "size": 195
+      }
+    },
+    "tetragon": {
+      "dark": {
+        "source": "tetragon",
+        "colors": {
+          "#000000": "#FFFFFF"
+        },
+        "size": 195
+      },
+      "light": {
+        "source": "tetragon",
+        "size": 195
+      }
+    },
+    "robusta": {
+      "dark": {
+        "source": "robusta",
+        "colors": {
+          "#ffffff": "#8F7BFB"
+        },
+        "size": 195
+      },
+      "light": {
+        "source": "robusta",
+        "colors": {
+          "#ffffff": "#5438dc"
+        },
+        "size": 195
+      }
+    },
+    "armo": {
+      "dark": {
+        "source": "armo",
+        "colors": {
+          "#003c56": "#00A3E0"
+        },
+        "size": 200
+      },
+      "light": {
+        "source": "armo",
+        "size": 200
+      }
+    },
+    "metamask": {
+      "dark": {
+        "source": "metamask",
+        "size": 195
+      },
+      "light": {
+        "source": "metamask",
+        "size": 195
+      }
+    },
+    "rabby": {
+      "dark": {
+        "source": "rabby",
+        "size": 195
+      },
+      "light": {
+        "source": "rabby",
+        "size": 195
+      }
     }
   }
 }

@@ -197,6 +197,102 @@ func TestLatestRequestedIcons(t *testing.T) {
 	}
 }
 
+func TestBatchNewIcons(t *testing.T) {
+	for _, name := range []string{
+		"sops", "buildpacks", "artifacthub", "cloudnativepg", "k9s", "k6",
+		"kaniko", "nexus", "openfaas", "keda", "telepresence", "flagger",
+		"knative", "coredns", "kubevip", "calico", "flannel", "cni",
+		"containerd", "kubebench", "syft", "grype", "makefile", "taskfile",
+		"hurl", "beats", "hubble", "tetragon", "robusta", "armo",
+		"metamask", "rabby",
+	} {
+		for _, theme := range []string{"", "dark", "light"} {
+			assetTheme := theme
+			if assetTheme == "" {
+				assetTheme = "auto"
+			}
+			t.Run(name+"/"+theme, func(t *testing.T) {
+				assertIconResponse(t, name, theme, name+"-"+assetTheme+".svg")
+			})
+		}
+	}
+
+	for _, alias := range []struct {
+		input, target string
+	}{
+		{"cnpg", "cloudnativepg-auto.svg"},
+		{"kube-vip", "kubevip-auto.svg"},
+		{"kube-bench", "kubebench-auto.svg"},
+		{"make", "makefile-auto.svg"},
+		{"task", "taskfile-auto.svg"},
+		{"elasticbeats", "beats-auto.svg"},
+		{"elastic-beats", "beats-auto.svg"},
+		{"armo-platform", "armo-auto.svg"},
+		{"armoplatform", "armo-auto.svg"},
+		{"rabby-wallet", "rabby-auto.svg"},
+		{"rabbywallet", "rabby-auto.svg"},
+		{"container-d", "containerd-auto.svg"},
+		{"open-faas", "openfaas-auto.svg"},
+		{"tele-presence", "telepresence-auto.svg"},
+		{"meta-mask", "metamask-auto.svg"},
+		{"artifact-hub", "artifacthub-auto.svg"},
+	} {
+		t.Run("alias/"+alias.input, func(t *testing.T) {
+			assertIconResponse(t, alias.input, "", alias.target)
+		})
+	}
+}
+
+func TestProfileStrips(t *testing.T) {
+	strips := []string{
+		"aws,azure,gcp,digitalocean,terraform,terragrunt,opentofu,ansible,crossplane,backstage,packer,vagrant,vmware,vercel",
+		"kubernetes,docker,helm,kustomize,argocd,flux,rke2,talos,kargo",
+		"githubactions,gitlab,jenkins,circleci,tekton",
+		"cilium,istio,linkerd,envoy,consul,nginx,apache,haproxy,keepalived",
+		"prometheus,grafana,alloy,loki,tempo,mimir,pyroscope,jaeger,opentelemetry,elasticsearch,logstash,kibana,fluentd,dynatrace,sentry,opencost",
+		"vault,certmanager,trivy,falco,externalsecrets,opa,kyverno,kubescape,sonarqube,ossfuzz",
+		"harbor,redis,rabbitmq,longhorn",
+		"postgres,mysql,mongodb,sqlserver,etcd,sqlalchemy,mongoose",
+		"go,py,rust,bash,powershell,linux,ubuntu,debian,redhat,nixos,git,c,cpp,cs,windows11",
+		"vscode,vim,zed,yaml,json,markdown,regex,latex",
+		"claudecode,codex,antigravity,cursor,githubcopilot,ollama,mcp",
+		"containerd,cni,calico,flannel,coredns,kubevip,hubble",
+		"sops,kubebench,syft,grype,tetragon,armo",
+		"kaniko,buildpacks,artifacthub,flagger,nexus,robusta",
+		"keda,knative,openfaas,telepresence,k9s",
+		"airflow,airbyte,trino,qdrant,cloudnativepg,rancher",
+		"makefile,taskfile,hurl,k6,beats",
+		"ts,js,html,css,bootstrap,nodejs,fastapi,flask,blazor,dotnet,flutter,riverpod,firebase,graphql",
+		"solidity,vyper,ethereum,hyperledger,kaleido,hardhat,foundry,ipfs,chainlink,infura,alchemy,metamask,rabby",
+	}
+
+	for _, strip := range strips {
+		for _, theme := range []string{"", "dark", "light"} {
+			t.Run(strip+"/"+theme, func(t *testing.T) {
+				query := url.Values{"i": {strip}, "theme": {theme}}
+				recorder := httptest.NewRecorder()
+				Handler(recorder, httptest.NewRequest(http.MethodGet, "/api/icons?"+query.Encode(), nil))
+				if recorder.Code != http.StatusOK {
+					t.Fatalf("status = %d, want %d", recorder.Code, http.StatusOK)
+				}
+				if got := recorder.Header().Get("Content-Type"); got != "image/svg+xml" {
+					t.Errorf("Content-Type = %q, want image/svg+xml", got)
+				}
+				decoder := xml.NewDecoder(strings.NewReader(recorder.Body.String()))
+				for {
+					_, err := decoder.Token()
+					if err == io.EOF {
+						break
+					}
+					if err != nil {
+						t.Fatalf("invalid SVG response for %s: %v", strip, err)
+					}
+				}
+			})
+		}
+	}
+}
+
 func assertIconResponse(t *testing.T, name, theme, asset string) {
 	t.Helper()
 	expected, err := os.ReadFile("../assets/" + asset)
