@@ -6,6 +6,34 @@ The original logos remain the property of their respective projects.
 
 ![Reviewed icons in dark and light themes](./preview.png)
 
+## Toolkit additions
+
+| Icon ID | Product or skill | Useful aliases |
+| --- | --- | --- |
+| `arm` | Arm architecture; pair with `assembly` for Arm Assembly | `armasm`, `armassembly`, `arm-assembly` |
+| `alloy` | Grafana Alloy | `grafanaalloy`, `grafana-alloy` |
+| `envoy` | Envoy Proxy | |
+| `dynatrace` | Dynatrace | |
+| `keepalived` | Keepalived | |
+| `tekton` | Tekton | `tektoncd` |
+| `ossfuzz` | Google OSS-Fuzz | `oss-fuzz` |
+| `claudecode` | Claude Code, using its pixel mascot | `claude-code` |
+| `codex` | OpenAI Codex, using its terminal mark | `codexcli`, `codex-cli` |
+| `antigravity` | Google Antigravity, including its CLI | `antigravitycli`, `antigravity-cli` |
+
+The profile also uses the existing `powershell`, `windows`, `apache` (Apache HTTP
+Server), `vercel`, `sentry`, `githubcopilot`, `cursor`, `mcp`, `assembly`, `json`,
+`yaml`, `markdown`, `latex`, and `regex` IDs. `httpd`, `apachehttpd` and
+`apache-httpd` resolve to `apache`.
+
+CSS, C++, C# and Sentry now place the complete project mark on the neutral tile:
+charcoal for dark mode and cream for light mode. The C++ and C# base URLs remain
+available. RKE2 uses the official blue symbol with white tractor cutouts.
+
+Removing Nix, npm and uv from the profile does not retire their public API IDs.
+NixOS remains in the profile's operating systems group. Backstage sits beside
+Crossplane under Developer Platforms & Delivery.
+
 ## Repairs
 
 - Backstage, Kyverno, OPA, Talos, HAProxy, Nix and uv now use their project marks.
@@ -43,11 +71,32 @@ Other sources are the projects' own repositories or sites: [OpenTofu](https://gi
 and [Bootstrap](https://github.com/twbs/bootstrap).
 The manifest records the exact file URLs, including pinned commits where available.
 
+The new artwork also includes [Arm's logo pack](https://www.arm.com/company/policies/trademarks/guidelines-corporate-logo),
+[Google's Antigravity press assets](https://antigravity.google/press),
+[ISO C++ logos](https://github.com/isocpp/logos),
+[Keepalived](https://www.keepalived.org/) and
+[OSS-Fuzz](https://github.com/google/oss-fuzz).
+Keepalived and OSS-Fuzz provide raster artwork at the recorded source locations;
+their vendored vector traces retain the original PNGs and conversion settings.
+Arm's white SVG is extracted from the official 2025 logo archive. RKE2's blue
+symbol receives a white underlay so its transparent cutouts remain white on the
+charcoal tile. Antigravity's SVG is extracted from the official press-page header;
+the generator removes the wordmark and preserves the symbol's colors and filters.
+
+C# uses [Devicon's vector](https://github.com/devicons/devicon), Claude Code and
+Codex use [LobeHub's vectors](https://github.com/lobehub/lobe-icons), and Dynatrace
+uses [SVG Logos](https://github.com/gilbarbara/logos). These are community vector
+sources, not files published by the respective product owners. Their license
+notices are retained in [`licenses/`](./licenses/).
+
 ## Updating an icon
 
 1. Save the project's actual artwork here and add its URL/checksum to `sources.json`.
 2. Add or update the icon's source selection and optional viewBox in the manifest.
    Use the source's geometry; do not redraw a logo from memory.
+   `color` resolves `currentColor` in monochrome marks, and `colors` maps explicit
+   fill/stroke colors for contrast. `base: true` keeps a legacy base filename
+   synchronized with the generated auto variant.
 3. Generate the three variants and rebuild the API's embedded assets:
 
    ```sh
@@ -79,6 +128,7 @@ The manifest records the exact file URLs, including pinned commits where availab
    by combining icons in the same SVG. A small pixel tolerance accounts for browser
    antialiasing. Brand accuracy still requires visual comparison with the source.
 
-The repair validation covered all 2,245 served SVG files structurally, all 27
-rebuilt icon families visually, and all 14 current profile strips. The browser
-regression run completed 840 checks without failures; the API tests also passed.
+Validation covers every served SVG structurally, every managed icon family in
+both themes, and the actual profile strips supplied to the browser audit. Consult
+the generated `report.json` for the current check count and any failures. Brand
+accuracy also requires comparing the preview with the recorded artwork sources.

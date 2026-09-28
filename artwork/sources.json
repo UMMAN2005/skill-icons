@@ -162,6 +162,105 @@
       "url": "https://raw.githubusercontent.com/astral-sh/uv/136ef97330781a0f5f2be6613aac4382ebbcecea/docs/assets/logo-letter.svg",
       "sha256": "fc5aeabf925cbdaba99f4e86635eeef2d47a5ecd715d7994490ef9082fd12bfb",
       "file": "uv.svg"
+    },
+    "cpp": {
+      "url": "https://raw.githubusercontent.com/isocpp/logos/64ef037049f87ac74875dbe72695e59118b52186/cpp_logo.svg",
+      "sha256": "7a16311bf5df3b6ec7e4f307d8a2ea339fbf8f03b68590a5372e4de72fc587c6",
+      "file": "cpp.svg"
+    },
+    "cs": {
+      "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/csharp/csharp-original.svg",
+      "sha256": "7093478d0888e22a224b6fa832da6c9ffd14c433de8bd14aab0c1cb50925f3ee",
+      "file": "cs.svg"
+    },
+    "alloy": {
+      "url": "https://grafana.com/media/oss/alloy/alloy-logo.svg",
+      "sha256": "258fc410b26cb1b0f38d1b084e40148faabcb5a59791ff9785f0373dc943bd8b",
+      "file": "alloy.svg"
+    },
+    "envoy": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/831f27a0cf4227b1b76a28ff51a9f4127a2195ec/projects/envoy/icon/color/envoy-icon-color.svg",
+      "sha256": "df8b8caf4cf8763be5932dc58d7272c03e50fc4dcfdf7eaee4a28a34d6ac5b7d",
+      "file": "envoy.svg"
+    },
+    "dynatrace": {
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/37a6b807fd71c622efea27a9309b5d4edc792969/logos/dynatrace-icon.svg",
+      "sha256": "b133485fcf1c7b274b28f3dc55c3b0b5812dc67ec79d964a550548c59c62d983",
+      "file": "dynatrace.svg"
+    },
+    "arm": {
+      "url": "https://www.arm.com/-/media/global/logos/arm%20logo%20-%202025%20ink_rgb.svg?w=300&rev=741b6887a4954e7a91215ed4d5909083&revision=741b6887-a495-4e7a-9121-5ed4d5909083&hash=F363E98634E2773E80F10C7FF96D5459",
+      "sha256": "60444c3f48e049cce219ca668c1e6ae77ad4de0394af9e2fe7611407e8d59f72",
+      "file": "arm.svg"
+    },
+    "arm-white-2025": {
+      "url": "https://www.arm.com/-/media/global/logos/arm-logo/corporate%20logo%20guidelines-2025/arm-logos-2025.zip?rev=8eb35d2688384d69b8cf3598d7ace935&revision=8eb35d26-8838-4d69-b8cf-3598d7ace935&hash=59F1FA100C3D5EDA29C743AB6AD9AD8D",
+      "sha256": "cbd1a54e9c8606e49d0149747b6ac4464be8f28251fb174b588b2c82c21c3e85",
+      "file": "arm-white-2025.svg",
+      "archive_member": "arm-logos-2025/Logos_2025/RGB/SVG/ARM LOGO - 2025 SILICON WHITE.svg"
+    },
+    "claudecode-mascot": {
+      "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/329f378cbd1a88f45b60cd096b9111ce16f3ea39/packages/static-svg/icons/claudecode-color.svg",
+      "sha256": "670b3d8d749d0815ad8f7e62a59d51cb5e2053cb19403f3541a8aed7036a877f",
+      "file": "claudecode-mascot.svg"
+    },
+    "codex": {
+      "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/329f378cbd1a88f45b60cd096b9111ce16f3ea39/packages/static-svg/icons/codex.svg",
+      "sha256": "d08b4e824cd6727e89617f59e4737273ff53e44c1da849d016dd64dfd08b33e1",
+      "file": "codex.svg"
+    },
+    "tekton-color": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/831f27a0cf4227b1b76a28ff51a9f4127a2195ec/projects/tekton/icon/color/tekton-icon-color.svg",
+      "sha256": "63f85c3eb8a529eb1e5b773915e181acb395ff13476c83399ddeae157bd5eafd",
+      "file": "tekton-color.svg"
+    },
+    "antigravity-lockup": {
+      "url": "https://antigravity.google/press",
+      "sha256": "41dcf460105bacdac1d70f4c3ebb5322a829c9aedd9f9b3c103cda48eb65bba6",
+      "file": "antigravity-lockup.svg",
+      "extraction": "First inline SVG; unmodified geometry, colors, masks and filters."
+    },
+    "rke2-blue-white": {
+      "url": "https://raw.githubusercontent.com/rancher/rke2-docs/49adc241cacda017061fa71080e03ff02f8254d3/static/img/logo-horizontal-rke2-dark.svg",
+      "sha256": "6a00c5c4c1b9c91f988509f476fe2b92b1abaec13c84358439aca8ca1266629e",
+      "file": "rke2-blue-white.svg",
+      "upstream_file": "rke2-color-dark.svg",
+      "upstream_sha256": "b659166b0a0f4f74c161a8a913247ef9750b69c31c0af50d79c6be8cceae3aee",
+      "conversion": "Extract g395; retain the published blue geometry; repeat the outer silhouette in white behind the transparent tractor cutouts."
+    },
+    "keepalived-vector": {
+      "url": "https://www.keepalived.org/assets/keepalived-logo.png",
+      "sha256": "26fa5604973ec6425cb5533e02223d3e250f44324704553dd5f59edb2b07466e",
+      "file": "keepalived-vector.svg",
+      "upstream_file": "keepalived.png",
+      "upstream_sha256": "794a40cf258a7695cdeb09aa962a35e2926ee9bcf7f088f2f8a0279597f95275",
+      "conversion": "vtracer 0.6.15: colormode=color, hierarchical=stacked, mode=spline, filter_speckle=4, color_precision=6, layer_difference=16, corner_threshold=60, length_threshold=4, max_iterations=10, splice_threshold=45, path_precision=3"
+    },
+    "keepalived-dark-vector": {
+      "url": "https://www.keepalived.org/assets/keepalived-logo-dark.png",
+      "sha256": "b6e0b5eb0a9cec48e7c40059b77a4a6fbc2eae2753edfc04cb7c82c8c4449046",
+      "file": "keepalived-dark-vector.svg",
+      "upstream_file": "keepalived-dark.png",
+      "upstream_sha256": "2c17ca75b09567188219cd7f15c378462a4013cabd2cf71cb3cd04a7b969800c",
+      "conversion": "vtracer 0.6.15: colormode=color, hierarchical=stacked, mode=spline, filter_speckle=4, color_precision=6, layer_difference=16, corner_threshold=60, length_threshold=4, max_iterations=10, splice_threshold=45, path_precision=3"
+    },
+    "ossfuzz-vector": {
+      "url": "https://raw.githubusercontent.com/google/oss-fuzz/2cc3fa481cbf724c0091fd3c75fdd4142e698409/infra/build/blog/content/images/oss-fuzz-logo.png",
+      "sha256": "d363d15ebdd48492f586b6d9140b120a1ddc77de456d71870799aea2e819a095",
+      "file": "ossfuzz-vector.svg",
+      "upstream_file": "ossfuzz.png",
+      "upstream_sha256": "db9c50470beda74a654f1839d5f48ba33db6b14e9bb3a04461974f79aa8ae6d0",
+      "conversion": "vtracer 0.6.15: colormode=color, hierarchical=stacked, mode=spline, filter_speckle=4, color_precision=6, layer_difference=16, corner_threshold=60, length_threshold=4, max_iterations=10, splice_threshold=45, path_precision=3"
+    },
+    "sentry": {
+      "url": "https://raw.githubusercontent.com/UMMAN2005/skill-icons/73386bfc728b5ffb589a419980a29f5b32fb2363/assets/sentry.svg",
+      "file": "sentry.svg",
+      "sha256": "076e4dcde64e5bc8df0be26394ebabc10ca23e1ff4c3a5134ee7f7f22fe6b1a2"
+    },
+    "tekton-white": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/831f27a0cf4227b1b76a28ff51a9f4127a2195ec/projects/tekton/icon/white/tekton-icon-white.svg",
+      "sha256": "b255056ef773b84d9df80d732ed7570fd151fe9d2f1d43d9956da88866b99bad",
+      "file": "tekton-white.svg"
     }
   },
   "icons": {
@@ -207,18 +306,10 @@
     },
     "css": {
       "dark": {
-        "source": "css",
-        "select": ".//*[@id='fg']",
-        "size": 256
+        "source": "css"
       },
       "light": {
-        "source": "css",
-        "select": ".//*[@id='fg']",
-        "size": 256
-      },
-      "backgrounds": {
-        "dark": "#663399",
-        "light": "#663399"
+        "source": "css"
       }
     },
     "externalsecrets": {
@@ -345,16 +436,10 @@
     },
     "rke2": {
       "dark": {
-        "source": "rke2-white",
-        "viewBox": "0 0 138.81107 117.02",
-        "select": "./s:g/s:g[1]"
+        "source": "rke2-blue-white"
       },
       "light": {
-        "source": "rke2",
-        "remove": [
-          "./s:g/s:g"
-        ],
-        "viewBox": "0 0 138.81107 117.02"
+        "source": "rke2-blue-white"
       }
     },
     "talos": {
@@ -402,6 +487,173 @@
       "light": {
         "source": "uv"
       }
+    },
+    "cpp": {
+      "dark": {
+        "source": "cpp"
+      },
+      "light": {
+        "source": "cpp"
+      },
+      "base": true
+    },
+    "cs": {
+      "dark": {
+        "source": "cs"
+      },
+      "light": {
+        "source": "cs"
+      },
+      "base": true
+    },
+    "alloy": {
+      "dark": {
+        "source": "alloy"
+      },
+      "light": {
+        "source": "alloy"
+      }
+    },
+    "envoy": {
+      "dark": {
+        "source": "envoy"
+      },
+      "light": {
+        "source": "envoy"
+      }
+    },
+    "dynatrace": {
+      "dark": {
+        "source": "dynatrace"
+      },
+      "light": {
+        "source": "dynatrace"
+      }
+    },
+    "arm": {
+      "dark": {
+        "source": "arm-white-2025"
+      },
+      "light": {
+        "source": "arm"
+      }
+    },
+    "claudecode": {
+      "dark": {
+        "source": "claudecode-mascot",
+        "viewBox": "0 5 24 15"
+      },
+      "light": {
+        "source": "claudecode-mascot",
+        "viewBox": "0 5 24 15"
+      }
+    },
+    "codex": {
+      "dark": {
+        "source": "codex",
+        "color": "#FFFFFF"
+      },
+      "light": {
+        "source": "codex",
+        "color": "#242938"
+      }
+    },
+    "tekton": {
+      "dark": {
+        "source": "tekton-white"
+      },
+      "light": {
+        "source": "tekton-color"
+      }
+    },
+    "antigravity": {
+      "dark": {
+        "source": "antigravity-lockup",
+        "viewBox": "13 18 85 78",
+        "remove": [
+          "./s:g/s:path[1]",
+          "./s:g/s:path[2]",
+          "./s:g/s:path[3]",
+          "./s:g/s:path[4]",
+          "./s:g/s:path[5]",
+          "./s:g/s:path[6]",
+          "./s:g/s:path[7]",
+          "./s:g/s:path[8]",
+          "./s:g/s:path[9]",
+          "./s:g/s:path[10]",
+          "./s:g/s:path[11]",
+          "./s:g/s:path[12]",
+          "./s:g/s:path[13]",
+          "./s:g/s:path[14]",
+          "./s:g/s:path[15]",
+          "./s:g/s:path[16]",
+          "./s:g/s:path[17]"
+        ]
+      },
+      "light": {
+        "source": "antigravity-lockup",
+        "viewBox": "13 18 85 78",
+        "remove": [
+          "./s:g/s:path[1]",
+          "./s:g/s:path[2]",
+          "./s:g/s:path[3]",
+          "./s:g/s:path[4]",
+          "./s:g/s:path[5]",
+          "./s:g/s:path[6]",
+          "./s:g/s:path[7]",
+          "./s:g/s:path[8]",
+          "./s:g/s:path[9]",
+          "./s:g/s:path[10]",
+          "./s:g/s:path[11]",
+          "./s:g/s:path[12]",
+          "./s:g/s:path[13]",
+          "./s:g/s:path[14]",
+          "./s:g/s:path[15]",
+          "./s:g/s:path[16]",
+          "./s:g/s:path[17]"
+        ]
+      }
+    },
+    "keepalived": {
+      "dark": {
+        "source": "keepalived-dark-vector"
+      },
+      "light": {
+        "source": "keepalived-vector"
+      }
+    },
+    "ossfuzz": {
+      "dark": {
+        "source": "ossfuzz-vector",
+        "viewBox": "110 57 480 87",
+        "colors": {
+          "#000000": "#FFFFFF"
+        }
+      },
+      "light": {
+        "source": "ossfuzz-vector",
+        "viewBox": "110 57 480 87"
+      }
+    },
+    "sentry": {
+      "dark": {
+        "source": "sentry",
+        "remove": [
+          "./s:rect"
+        ],
+        "size": 256
+      },
+      "light": {
+        "source": "sentry",
+        "remove": [
+          "./s:rect"
+        ],
+        "size": 256,
+        "colors": {
+          "white": "#362D59"
+        }
+      },
+      "base": true
     }
   }
 }

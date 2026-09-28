@@ -65,6 +65,8 @@ func TestNewProposedIcons(t *testing.T) {
 		"loki", "tempo", "harbor", "minio", "longhorn",
 		"externalsecrets", "falco", "trivy", "certmanager", "vmware",
 		"opentofu", "kubescape", "mimir", "pyroscope",
+		"arm", "alloy", "envoy", "dynatrace", "keepalived", "tekton",
+		"claudecode", "codex", "antigravity", "ossfuzz",
 	} {
 		for _, theme := range []string{"", "dark", "light"} {
 			assetTheme := theme
@@ -85,6 +87,14 @@ func TestNewProposedIcons(t *testing.T) {
 		{"tg", "terragrunt-auto.svg"},
 		{"tofu", "opentofu-auto.svg"},
 		{"open-tofu", "opentofu-auto.svg"},
+		{"arm-assembly", "arm-auto.svg"},
+		{"httpd", "apache-auto.svg"},
+		{"grafana-alloy", "alloy-auto.svg"},
+		{"claude-code", "claudecode-auto.svg"},
+		{"codex-cli", "codex-auto.svg"},
+		{"antigravity-cli", "antigravity-auto.svg"},
+		{"oss-fuzz", "ossfuzz-auto.svg"},
+		{"tektoncd", "tekton-auto.svg"},
 	} {
 		t.Run("alias/"+alias.input, func(t *testing.T) {
 			assertIconResponse(t, alias.input, "", alias.target)
@@ -144,6 +154,7 @@ func TestExplicitThemesForIconsWithBaseAssets(t *testing.T) {
 	for _, name := range []string{
 		"ansible", "chainlink", "fastapi", "flask", "gitlab", "golang",
 		"infura", "javascript", "mongodb", "nginx", "typescript",
+		"cpp", "cs", "sentry",
 	} {
 		for _, theme := range []string{"dark", "light"} {
 			t.Run(name+"/"+theme, func(t *testing.T) {

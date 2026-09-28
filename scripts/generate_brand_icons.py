@@ -71,12 +71,14 @@ def artwork(config, sources, prefix):
         if node.tag in {tag("image"), tag("script"), tag("text")}:
             raise ValueError(f"Non-vector content in {record['file']}: {node.tag}")
 
-    for expression in config.get("remove", []):
-        selected = root.findall(expression, NS)
-        for parent in root.iter():
-            for node in list(parent):
-                if node in selected:
-                    parent.remove(node)
+    # Resolve positional selections before removing nodes, so later indexes do
+    # not shift when several parts of a wordmark are excluded.
+    selected = {node for expression in config.get("remove", [])
+                for node in root.findall(expression, NS)}
+    for parent in root.iter():
+        for node in list(parent):
+            if node in selected:
+                parent.remove(node)
 
     selected = root.find(config["select"], NS) if "select" in config else root
     if selected is None:
@@ -91,6 +93,14 @@ def artwork(config, sources, prefix):
                      "role", "aria-labelledby", "preserveAspectRatio"):
             inner.attrib.pop(attr, None)
     inner.set("fill", inner.get("fill", "#000000"))
+    if "color" in config:
+        inner.set("color", config["color"])
+    # Monochrome project marks may need a contrasting published color variant.
+    colors = {key.lower(): value for key, value in config.get("colors", {}).items()}
+    for node in inner.iter():
+        for attr in ("fill", "stroke"):
+            if node.get(attr, "").lower() in colors:
+                node.set(attr, colors[node.get(attr).lower()])
 
     identifiers = {node.get("id"): prefix + node.get("id")
                    for node in inner.iter() if node.get("id")}
@@ -151,16 +161,21 @@ def main():
     args = parser.parse_args()
     manifest = json.loads((ROOT / "artwork" / "sources.json").read_text())
     stale = []
+    count = 0
     for name, icon in manifest["icons"].items():
-        for theme in ("auto", "dark", "light"):
-            target = ROOT / "assets" / f"{name}-{theme}.svg"
+        variants = {f"{name}-{theme}.svg": theme for theme in ("auto", "dark", "light")}
+        if icon.get("base"):
+            variants[f"{name}.svg"] = "auto"
+        for filename, theme in variants.items():
+            target = ROOT / "assets" / filename
             expected = generate(name, icon, manifest["sources"], theme)
+            count += 1
             if args.check:
                 if not target.exists() or target.read_text() != expected:
                     stale.append(str(target.relative_to(ROOT)))
             else:
                 target.write_text(expected)
-    print(f"{'Checked' if args.check else 'Generated'} {len(manifest['icons']) * 3} themed SVGs.")
+    print(f"{'Checked' if args.check else 'Generated'} {count} SVGs.")
     for path in stale:
         print(f"Stale generated asset: {path}")
     return bool(stale)
