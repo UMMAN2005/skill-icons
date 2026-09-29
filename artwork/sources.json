@@ -1361,14 +1361,14 @@
       "dark": {
         "source": "robusta",
         "colors": {
-          "#ffffff": "#8F7BFB"
+          "#ffffff": "#4CD7A4"
         },
         "size": 195
       },
       "light": {
         "source": "robusta",
         "colors": {
-          "#ffffff": "#5438dc"
+          "#ffffff": "#11885E"
         },
         "size": 195
       }
@@ -1423,13 +1423,18 @@
       "dark": {
         "source": "cosign",
         "colors": {
-          "#4b5a65": "#FFFFFF"
+          "#4b5a65": "#FFFFFF",
+          "#cb2e58": "#4A90E2"
         },
         "size": 195
       },
       "light": {
         "source": "cosign",
-        "size": 195
+        "size": 195,
+        "colors": {
+          "#4b5a65": "#2E2F71",
+          "#cb2e58": "#2B6CB0"
+        }
       }
     }
   }

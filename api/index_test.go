@@ -292,11 +292,12 @@ func TestProfileStrips(t *testing.T) {
 		"ethereum,hyperledger,kaleido,solidity,vyper,hardhat,foundry,chainlink,ipfs,infura,alchemy,metamask,rabby",
 		// Ultimate categorization strips:
 		"aws,azure,gcp,digitalocean,vmware,terraform,opentofu,terragrunt,crossplane,backstage,ansible,packer,vagrant",
-		"kubernetes,rke2,talos,helm,kustomize,docker,containerd",
-		"githubactions,gitlab,jenkins,circleci,tekton,argocd,flux,kargo,flagger,harbor,nexus,artifacthub",
+		"kubernetes,rke2,talos,knative,openfaas,helm,kustomize,docker,containerd",
+		"githubactions,gitlab,jenkins,circleci,tekton,buildpacks,kaniko,argocd,flux,kargo,flagger,harbor,nexus,artifacthub",
 		"istio,consul,linkerd,cilium,calico,flannel,envoy,coredns,cni,kubevip,nginx,apache,haproxy,keepalived",
 		"prometheus,grafana,loki,mimir,tempo,pyroscope,alloy,dynatrace,sentry,robusta,opentelemetry,jaeger,elasticsearch,logstash,kibana,beats,fluentd",
-		"kyverno,opa,ranger,certmanager,vault,sops,externalsecrets,tetragon,falco,armo,trivy,kubescape,kubebench,syft,grype,cosign",
+		"kyverno,opa,ranger,certmanager,vault,sops,externalsecrets,tetragon,falco,sonarqube,armo,trivy,kubescape,kubebench,syft,grype,cosign",
+		"git,vscode,vim,zed,makefile,taskfile,k9s,telepresence,hurl,k6,ossfuzz,sqlalchemy,mongoose",
 	}
 
 	for _, strip := range strips {
