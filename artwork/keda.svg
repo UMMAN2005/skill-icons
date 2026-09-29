@@ -28,13 +28,13 @@
                 <polygon id="Path" fill="#FFFFFF" points="302.004425 40 296.566095 77.5 313.96875 77.5 284.964325 130 290.402655 92.5 273 92.5"></polygon>
             </g>
             <g id="nodes" fill="#326DE6" fill-rule="nonzero">
-                <circle id="Oval-2" cx="418" cy="519" r="39"></circle>
-                <circle id="Oval-2" cx="176" cy="519" r="39"></circle>
-                <circle id="Oval-2" cx="287" cy="39" r="39"></circle>
-                <circle id="Oval-2" cx="498" cy="131" r="39"></circle>
-                <circle id="Oval-2" cx="80" cy="131" r="39"></circle>
-                <circle id="Oval-2" cx="547" cy="350" r="39"></circle>
-                <circle id="Oval-2" cx="39" cy="350" r="39"></circle>
+                <circle cx="418" cy="519" r="39"></circle>
+                <circle cx="176" cy="519" r="39"></circle>
+                <circle cx="287" cy="39" r="39"></circle>
+                <circle cx="498" cy="131" r="39"></circle>
+                <circle cx="80" cy="131" r="39"></circle>
+                <circle cx="547" cy="350" r="39"></circle>
+                <circle cx="39" cy="350" r="39"></circle>
             </g>
         </g>
     </g>

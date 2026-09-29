@@ -389,7 +389,7 @@
     },
     "keda": {
       "url": "https://raw.githubusercontent.com/cncf/landscape/master/hosted_logos/keda.svg",
-      "sha256": "3fa88e7b7776cd5420d51b0edf70164ee15edebb581e445c63a3f3b497397b6a",
+      "sha256": "e7f95c4cd53d53a3b84d3f6e3dbfeef4416723a56fec2807486284a443b3a88c",
       "file": "keda.svg"
     },
     "telepresence": {
