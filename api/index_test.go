@@ -204,7 +204,7 @@ func TestBatchNewIcons(t *testing.T) {
 		"knative", "coredns", "kubevip", "calico", "flannel", "cni",
 		"containerd", "kubebench", "syft", "grype", "makefile", "taskfile",
 		"hurl", "beats", "hubble", "tetragon", "robusta", "armo",
-		"metamask", "rabby", "ranger", "cosign",
+		"metamask", "rabby", "ranger", "cosign", "semaphore", "uptimekuma",
 	} {
 		for _, theme := range []string{"", "dark", "light"} {
 			assetTheme := theme
@@ -244,6 +244,8 @@ func TestBatchNewIcons(t *testing.T) {
 		{"otel", "opentelemetry-auto.svg"},
 		{"opentel", "opentelemetry-auto.svg"},
 		{"syth", "syft-auto.svg"},
+		{"uptime-kuma", "uptimekuma-auto.svg"},
+		{"ansible-semaphore", "semaphore-auto.svg"},
 	} {
 		t.Run("alias/"+alias.input, func(t *testing.T) {
 			assertIconResponse(t, alias.input, "", alias.target)
@@ -291,13 +293,14 @@ func TestProfileStrips(t *testing.T) {
 		"html,css,bootstrap,js,ts,nodejs,fastapi,flask,dotnet,blazor,graphql,flutter,riverpod,firebase,vercel",
 		"ethereum,hyperledger,kaleido,solidity,vyper,hardhat,foundry,chainlink,ipfs,infura,alchemy,metamask,rabby",
 		// Ultimate categorization strips:
-		"aws,azure,gcp,digitalocean,vmware,terraform,opentofu,terragrunt,crossplane,backstage,ansible,packer,vagrant",
+		"aws,azure,gcp,digitalocean,vmware,terraform,opentofu,terragrunt,crossplane,backstage,ansible,semaphore,packer,vagrant",
 		"kubernetes,rke2,talos,knative,openfaas,helm,kustomize,docker,containerd",
 		"githubactions,gitlab,jenkins,circleci,tekton,buildpacks,kaniko,argocd,flux,kargo,flagger,harbor,nexus,artifacthub",
 		"istio,consul,linkerd,cilium,calico,flannel,envoy,coredns,cni,kubevip,nginx,apache,haproxy,keepalived",
-		"prometheus,grafana,loki,mimir,tempo,pyroscope,alloy,dynatrace,sentry,robusta,opentelemetry,jaeger,elasticsearch,logstash,kibana,beats,fluentd",
+		"prometheus,grafana,loki,mimir,tempo,pyroscope,alloy,dynatrace,sentry,robusta,opentelemetry,jaeger,elasticsearch,logstash,kibana,beats,fluentd,uptimekuma",
 		"kyverno,opa,ranger,certmanager,vault,sops,externalsecrets,tetragon,falco,sonarqube,armo,trivy,kubescape,kubebench,syft,grype,cosign",
-		"git,vscode,vim,zed,makefile,taskfile,k9s,telepresence,hurl,k6,ossfuzz,sqlalchemy,mongoose",
+		"postgres,cloudnativepg,mysql,sqlserver,mongodb,dapper,redis,etcd,longhorn,rabbitmq",
+		"git,vscode,vim,zed,makefile,taskfile,k9s,telepresence,hurl,k6,ossfuzz,eslint,sqlalchemy,mongoose",
 	}
 
 	for _, strip := range strips {

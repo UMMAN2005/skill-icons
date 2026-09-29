@@ -511,6 +511,17 @@
       "url": "https://raw.githubusercontent.com/sigstore/community/main/artwork/cosign/icons/color/sigstore_cosign-icon-color.svg",
       "sha256": "75b0967ef9d6f6d1d6a42bd62edc4ce1384e104644d0a0fc8239297ab4ca1332",
       "file": "cosign.svg"
+    },
+    "semaphore": {
+      "url": "https://raw.githubusercontent.com/ansible-semaphore/semaphore/a74639670a106d6a832f778b0a0798602602c9c4/web/src/assets/logo.svg",
+      "sha256": "756d19f48603ea7fa2aff9b33c449dbee6d7ee07824d830f60b0324a2e10ba13",
+      "file": "semaphore.svg"
+    },
+    "uptimekuma": {
+      "url": "https://raw.githubusercontent.com/louislam/uptime-kuma/e7420f8fa546a8baa7ac4bf9d10a32545d4346e0/public/icon.svg",
+      "sha256": "09ccc587f375ca656b6f0c87d1756ae2a6931beea2933a93c450d5fd6e26c70b",
+      "file": "uptimekuma.svg",
+      "conversion": "Normalize path coordinates to remove parent group transform and align userSpaceOnUse linear gradient cleanly."
     }
   },
   "icons": {
@@ -1435,6 +1446,26 @@
           "#4b5a65": "#2E2F71",
           "#cb2e58": "#2B6CB0"
         }
+      }
+    },
+    "semaphore": {
+      "dark": {
+        "source": "semaphore",
+        "size": 195
+      },
+      "light": {
+        "source": "semaphore",
+        "size": 195
+      }
+    },
+    "uptimekuma": {
+      "dark": {
+        "source": "uptimekuma",
+        "size": 195
+      },
+      "light": {
+        "source": "uptimekuma",
+        "size": 195
       }
     }
   }
