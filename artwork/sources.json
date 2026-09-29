@@ -501,6 +501,11 @@
       "url": "https://raw.githubusercontent.com/RabbyHub/rabby-brand/main/rabby-logo.svg",
       "sha256": "5da82f873b410c7b1531ca61c2a82d691b0c5181e6c4fad7010660366ca623ef",
       "file": "rabby.svg"
+    },
+    "ranger": {
+      "url": "https://ranger.apache.org/ranger-logo.svg",
+      "sha256": "d05540d308f2027bd8e74a9c31762a4ddf2e03134d2fef21ea2359fd28e077a6",
+      "file": "ranger.svg"
     }
   },
   "icons": {
@@ -1393,6 +1398,19 @@
       },
       "light": {
         "source": "rabby",
+        "size": 195
+      }
+    },
+    "ranger": {
+      "dark": {
+        "source": "ranger",
+        "colors": {
+          "#133653": "#FFFFFF"
+        },
+        "size": 195
+      },
+      "light": {
+        "source": "ranger",
         "size": 195
       }
     }

@@ -204,7 +204,7 @@ func TestBatchNewIcons(t *testing.T) {
 		"knative", "coredns", "kubevip", "calico", "flannel", "cni",
 		"containerd", "kubebench", "syft", "grype", "makefile", "taskfile",
 		"hurl", "beats", "hubble", "tetragon", "robusta", "armo",
-		"metamask", "rabby",
+		"metamask", "rabby", "ranger",
 	} {
 		for _, theme := range []string{"", "dark", "light"} {
 			assetTheme := theme
@@ -236,6 +236,8 @@ func TestBatchNewIcons(t *testing.T) {
 		{"tele-presence", "telepresence-auto.svg"},
 		{"meta-mask", "metamask-auto.svg"},
 		{"artifact-hub", "artifacthub-auto.svg"},
+		{"apache-ranger", "ranger-auto.svg"},
+		{"apacheranger", "ranger-auto.svg"},
 	} {
 		t.Run("alias/"+alias.input, func(t *testing.T) {
 			assertIconResponse(t, alias.input, "", alias.target)
@@ -264,6 +266,24 @@ func TestProfileStrips(t *testing.T) {
 		"makefile,taskfile,hurl,k6,beats",
 		"ts,js,html,css,bootstrap,nodejs,fastapi,flask,blazor,dotnet,flutter,riverpod,firebase,graphql",
 		"solidity,vyper,ethereum,hyperledger,kaleido,hardhat,foundry,ipfs,chainlink,infura,alchemy,metamask,rabby",
+		// New reorganized profile strips:
+		"aws,azure,gcp,digitalocean,terraform,opentofu,terragrunt,ansible,packer,vmware,vagrant,crossplane,backstage",
+		"docker,containerd,kubernetes,rke2,talos,helm,kustomize,keda",
+		"githubactions,gitlab,jenkins,circleci,tekton,argocd,flux,kargo,flagger,harbor,nexus",
+		"cilium,hubble,calico,coredns,istio,linkerd,envoy,consul,nginx,apache,haproxy,keepalived",
+		"prometheus,grafana,alloy,mimir,loki,tempo,pyroscope,opentelemetry,jaeger,elasticsearch,logstash,kibana,fluentd,opencost",
+		"vault,externalsecrets,sops,certmanager,opa,kyverno,ranger,trivy,kubescape,kubebench,syft,grype,falco,tetragon",
+		"postgres,cloudnativepg,mysql,sqlserver,mongodb,redis,etcd,longhorn,rabbitmq",
+		"go,py,rust,c,cpp,cs,bash,powershell,linux,ubuntu,debian,redhat,nixos,windows11",
+		"git,vscode,vim,zed,makefile,taskfile,k9s,telepresence,hurl,k6,sqlalchemy,mongoose",
+		"yaml,json,markdown,latex,regex",
+		"cni,flannel,kubevip",
+		"kaniko,buildpacks,artifacthub,knative,openfaas",
+		"dynatrace,sentry,beats,robusta",
+		"sonarqube,ossfuzz,armo",
+		"airbyte,airflow,trino,qdrant",
+		"html,css,bootstrap,js,ts,nodejs,fastapi,flask,dotnet,blazor,graphql,flutter,riverpod,firebase,vercel",
+		"ethereum,hyperledger,kaleido,solidity,vyper,hardhat,foundry,chainlink,ipfs,infura,alchemy,metamask,rabby",
 	}
 
 	for _, strip := range strips {
