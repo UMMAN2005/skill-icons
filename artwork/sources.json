@@ -388,8 +388,8 @@
       "file": "openfaas.svg"
     },
     "keda": {
-      "url": "https://raw.githubusercontent.com/cncf/landscape/master/hosted_logos/keda.svg",
-      "sha256": "e7f95c4cd53d53a3b84d3f6e3dbfeef4416723a56fec2807486284a443b3a88c",
+      "url": "https://raw.githubusercontent.com/kedacore/governance/main/logos/icon/color/keda-icon-color.svg",
+      "sha256": "3da0428d93c297866a5901c148ab9975bfb918e3827bc07b43a42d2b090258bf",
       "file": "keda.svg"
     },
     "telepresence": {
@@ -438,8 +438,8 @@
       "file": "containerd.svg"
     },
     "kubebench": {
-      "url": "https://raw.githubusercontent.com/aquasecurity/kube-bench/main/images/kube-bench.svg",
-      "sha256": "f9268cf73cf276255cc5c4cf423e870cc27c293b8c293741150702c4a0a2dadb",
+      "url": "https://raw.githubusercontent.com/aquasecurity/kube-bench/main/docs/images/kube-bench.svg",
+      "sha256": "78f6eed580350f7b4c071ef4657cdd8fafbb3a69d4ba7f674414deddaf32c376",
       "file": "kubebench.svg"
     },
     "syft": {
