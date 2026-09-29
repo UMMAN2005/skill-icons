@@ -506,6 +506,11 @@
       "url": "https://ranger.apache.org/ranger-logo.svg",
       "sha256": "d05540d308f2027bd8e74a9c31762a4ddf2e03134d2fef21ea2359fd28e077a6",
       "file": "ranger.svg"
+    },
+    "cosign": {
+      "url": "https://raw.githubusercontent.com/sigstore/community/main/artwork/cosign/icons/color/sigstore_cosign-icon-color.svg",
+      "sha256": "75b0967ef9d6f6d1d6a42bd62edc4ce1384e104644d0a0fc8239297ab4ca1332",
+      "file": "cosign.svg"
     }
   },
   "icons": {
@@ -1411,6 +1416,19 @@
       },
       "light": {
         "source": "ranger",
+        "size": 195
+      }
+    },
+    "cosign": {
+      "dark": {
+        "source": "cosign",
+        "colors": {
+          "#4b5a65": "#FFFFFF"
+        },
+        "size": 195
+      },
+      "light": {
+        "source": "cosign",
         "size": 195
       }
     }
