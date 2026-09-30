@@ -206,6 +206,7 @@ func TestBatchNewIcons(t *testing.T) {
 		"hurl", "beats", "hubble", "tetragon", "robusta", "armo",
 		"metamask", "rabby", "ranger", "cosign", "semaphore", "uptimekuma",
 		"starship", "lefthook", "semgrep", "hcl", "gitleaks", "trufflehog", "dockercompose",
+		"hermes", "mempalace",
 	} {
 		for _, theme := range []string{"", "dark", "light"} {
 			assetTheme := theme
@@ -258,6 +259,13 @@ func TestBatchNewIcons(t *testing.T) {
 		{"git-leaks", "gitleaks-auto.svg"},
 		{"truffle-hog", "trufflehog-auto.svg"},
 		{"left-hook", "lefthook-auto.svg"},
+		{"hermesagent", "hermes-auto.svg"},
+		{"hermes-agent", "hermes-auto.svg"},
+		{"hermes_agent", "hermes-auto.svg"},
+		{"nous-hermes", "hermes-auto.svg"},
+		{"noushermes", "hermes-auto.svg"},
+		{"mem-palace", "mempalace-auto.svg"},
+		{"mem_palace", "mempalace-auto.svg"},
 	} {
 		t.Run("alias/"+alias.input, func(t *testing.T) {
 			assertIconResponse(t, alias.input, "", alias.target)

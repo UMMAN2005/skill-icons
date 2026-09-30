@@ -215,13 +215,13 @@ Featuring Terraform, OpenTofu, [HashiCorp Configuration Language (HCL)](https://
 
 ### AI & Agentic Engineering
 
-Featuring Google Antigravity, Anthropic Claude Code, OpenAI Codex, GitHub Copilot, and Ollama:
+Featuring Google Antigravity, Anthropic Claude Code, OpenAI Codex, [Hermes Agent](https://hermes-agent.nousresearch.com/), [MemPalace](https://github.com/mempalace/mempalace), GitHub Copilot, and Ollama:
 
 ```markdown
-![AI Engineering](https://skill-icons-go.vercel.app/api/icons?i=antigravity,claudecode,codex,githubcopilot,ollama)
+![AI Engineering](https://skill-icons-go.vercel.app/api/icons?i=antigravity,claudecode,codex,hermes,mempalace,githubcopilot,ollama)
 ```
 
-![AI Engineering](https://skill-icons-go.vercel.app/api/icons?i=antigravity,claudecode,codex,githubcopilot,ollama)
+![AI Engineering](https://skill-icons-go.vercel.app/api/icons?i=antigravity,claudecode,codex,hermes,mempalace,githubcopilot,ollama)
 
 ---
 
@@ -250,6 +250,8 @@ Our Go service features an extensive alias engine so you can use common abbrevia
 | **AI Assistants** | Google Antigravity | `antigravity` | `antigravitycli`, `antigravity-cli` |
 | **AI Assistants** | Claude Code | `claudecode` | `claude-code` |
 | **AI Assistants** | Codex CLI | `codex` | `codexcli`, `codex-cli` |
+| **AI Agents** | Hermes Agent | `hermes` | `hermesagent`, `hermes-agent`, `nous-hermes` |
+| **AI Memory** | MemPalace | `mempalace` | `mem-palace` |
 | **Languages** | Go | `golang` | `go` |
 | **Languages** | TypeScript | `typescript` | `ts` |
 | **Languages** | Python | `python` | `py` |

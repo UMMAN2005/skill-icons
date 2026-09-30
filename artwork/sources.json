@@ -566,6 +566,26 @@
       "file": "dockercompose.svg",
       "sha256": "6e5f63baab5f28b1177ab62fce71403de16ddf81b223151e739dae2eafea2029",
       "conversion": "vtracer 0.6.12: colormode=color, hierarchical=stacked, mode=spline, filter_speckle=4, color_precision=6, layer_difference=16, corner_threshold=60, length_threshold=4, max_iterations=10, splice_threshold=45, path_precision=3"
+    },
+    "hermes-dark": {
+      "url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/assets/icon-master-dark.svg",
+      "sha256": "763a13b5b604114d7ec536a5b6cb7fc277c230e3310b4d6c527ac6905500749f",
+      "file": "hermes-dark.svg"
+    },
+    "hermes": {
+      "url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/assets/icon-master.svg",
+      "sha256": "9bebf0f275094bb937c39313ce0b0a883403584aba4b45ddba5386e316ca4c2f",
+      "file": "hermes.svg"
+    },
+    "mempalace-dark": {
+      "url": "https://raw.githubusercontent.com/mempalace/mempalace/main/landing/index.html",
+      "sha256": "ab7bec4c7663870792510df8f284407e05dfe34a8f5a80300d35028552d37602",
+      "file": "mempalace-dark.svg"
+    },
+    "mempalace": {
+      "url": "https://raw.githubusercontent.com/mempalace/mempalace/main/landing/index.html",
+      "sha256": "bbd7d682658d9ef2d5bb936a4926738c6ec691f3d9d21750f4a1a50ebf1c66ed",
+      "file": "mempalace.svg"
     }
   },
   "icons": {
@@ -1592,6 +1612,26 @@
       "light": {
         "source": "dockercompose",
         "size": 195
+      }
+    },
+    "hermes": {
+      "dark": {
+        "source": "hermes-dark",
+        "size": 205
+      },
+      "light": {
+        "source": "hermes",
+        "size": 205
+      }
+    },
+    "mempalace": {
+      "dark": {
+        "source": "mempalace-dark",
+        "size": 205
+      },
+      "light": {
+        "source": "mempalace",
+        "size": 205
       }
     }
   }
