@@ -513,15 +513,59 @@
       "file": "cosign.svg"
     },
     "semaphore": {
-      "url": "https://raw.githubusercontent.com/ansible-semaphore/semaphore/a74639670a106d6a832f778b0a0798602602c9c4/web/src/assets/logo.svg",
-      "sha256": "756d19f48603ea7fa2aff9b33c449dbee6d7ee07824d830f60b0324a2e10ba13",
-      "file": "semaphore.svg"
+      "url": "https://raw.githubusercontent.com/semaphoreui/semaphore/develop/web/public/favicon.svg",
+      "sha256": "708e0690ff134c9796132239bcc4959dc62c1df6452736372aee57b1eeb45e04",
+      "file": "semaphore.svg",
+      "conversion": "Normalized circle centers and radii to clean viewBox 50x50 with stroke=none."
     },
     "uptimekuma": {
       "url": "https://raw.githubusercontent.com/louislam/uptime-kuma/e7420f8fa546a8baa7ac4bf9d10a32545d4346e0/public/icon.svg",
       "sha256": "09ccc587f375ca656b6f0c87d1756ae2a6931beea2933a93c450d5fd6e26c70b",
       "file": "uptimekuma.svg",
       "conversion": "Normalize path coordinates to remove parent group transform and align userSpaceOnUse linear gradient cleanly."
+    },
+    "starship": {
+      "url": "https://raw.githubusercontent.com/starship/starship/master/media/icon.svg",
+      "sha256": "0b97790414d705d8bbb8a236cee5a5a9e2e8fd9eae295ca5c91816c9195a510d",
+      "file": "starship.svg",
+      "conversion": "Normalized circle clipPath and gradient definition for self-contained embedding."
+    },
+    "lefthook": {
+      "url": "https://raw.githubusercontent.com/evilmartians/lefthook/master/logo_sign.svg",
+      "sha256": "c1b978abead7a2e7fd9ea1a5fc7da69ed6ee381860014436491755bad3e5feac",
+      "file": "lefthook.svg"
+    },
+    "semgrep": {
+      "url": "https://raw.githubusercontent.com/semgrep/semgrep/develop/images/semgrep-logo-dark.svg",
+      "sha256": "bf7ef1dfdfce6a6ee3084dfe34abdc678bb8250d0d7f02f8fb4edc37c16a31ed",
+      "file": "semgrep.svg",
+      "conversion": "Extracted semgrep-ellipsis symbol into standalone 512x200 viewBox."
+    },
+    "hcl": {
+      "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/master/icons/hashicorp.svg",
+      "sha256": "91a4245a398c9e25a668d993649a76ee108475afe725bc465eba462668934653",
+      "file": "hcl.svg"
+    },
+    "gitleaks": {
+      "url": "https://avatars.githubusercontent.com/u/74020713?v=4",
+      "upstream_file": "gitleaks-avatar.png",
+      "file": "gitleaks.svg",
+      "sha256": "1a0c1f4bb4b1428493657524ffcd93a20506028167938e0256a0e0a871a94dd9",
+      "conversion": "vtracer 0.6.12: colormode=binary, mode=spline"
+    },
+    "trufflehog": {
+      "url": "https://raw.githubusercontent.com/trufflesecurity/trufflehog/main/docs/images/trufflehog.png",
+      "upstream_file": "trufflehog_pixel_pig.png",
+      "file": "trufflehog.svg",
+      "sha256": "346a5c053d34fa5920f3cbafa0c9fe25b9abe47ee4b51d9bf5853b2d9a95f6dc",
+      "conversion": "Sampled 19x12 pixel grid into horizontal rect spans with exact color preservation."
+    },
+    "dockercompose": {
+      "url": "https://raw.githubusercontent.com/docker/compose/main/logo.png",
+      "upstream_file": "docker-compose-logo.png",
+      "file": "dockercompose.svg",
+      "sha256": "6e5f63baab5f28b1177ab62fce71403de16ddf81b223151e739dae2eafea2029",
+      "conversion": "vtracer 0.6.12: colormode=color, hierarchical=stacked, mode=spline, filter_speckle=4, color_precision=6, layer_difference=16, corner_threshold=60, length_threshold=4, max_iterations=10, splice_threshold=45, path_precision=3"
     }
   },
   "icons": {
@@ -1465,6 +1509,88 @@
       },
       "light": {
         "source": "uptimekuma",
+        "size": 195
+      }
+    },
+    "starship": {
+      "dark": {
+        "source": "starship",
+        "size": 195
+      },
+      "light": {
+        "source": "starship",
+        "size": 195
+      }
+    },
+    "lefthook": {
+      "dark": {
+        "source": "lefthook",
+        "size": 200
+      },
+      "light": {
+        "source": "lefthook",
+        "size": 200
+      }
+    },
+    "semgrep": {
+      "dark": {
+        "source": "semgrep",
+        "size": 210
+      },
+      "light": {
+        "source": "semgrep",
+        "size": 210
+      }
+    },
+    "hcl": {
+      "dark": {
+        "source": "hcl",
+        "size": 185,
+        "colors": {
+          "#021463": "#FFFFFF"
+        }
+      },
+      "light": {
+        "source": "hcl",
+        "size": 185,
+        "colors": {
+          "#021463": "#021463"
+        }
+      }
+    },
+    "gitleaks": {
+      "dark": {
+        "source": "gitleaks",
+        "size": 195,
+        "colors": {
+          "#000000": "#FFFFFF"
+        }
+      },
+      "light": {
+        "source": "gitleaks",
+        "size": 195,
+        "colors": {
+          "#000000": "#242938"
+        }
+      }
+    },
+    "trufflehog": {
+      "dark": {
+        "source": "trufflehog",
+        "size": 200
+      },
+      "light": {
+        "source": "trufflehog",
+        "size": 200
+      }
+    },
+    "dockercompose": {
+      "dark": {
+        "source": "dockercompose",
+        "size": 195
+      },
+      "light": {
+        "source": "dockercompose",
         "size": 195
       }
     }
