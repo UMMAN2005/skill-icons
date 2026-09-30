@@ -175,6 +175,18 @@ var shortNames = map[string]string{
     "noushermes":         "hermes",
     "mem-palace":         "mempalace",
     "mem_palace":         "mempalace",
+    "colab":              "googlecolab",
+    "collab":             "googlecolab",
+    "google-colab":       "googlecolab",
+    "google_colab":       "googlecolab",
+    "googlecollab":       "googlecolab",
+    "jupyternotebook":    "jupyter",
+    "jupyter-notebook":   "jupyter",
+    "jupyter_notebook":   "jupyter",
+    "notebook":           "jupyter",
+    "hugginface":         "huggingface",
+    "jupoter":            "jupyter",
+    "jupoternotebook":    "jupyter",
 }
 
 var (

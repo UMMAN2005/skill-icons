@@ -52,6 +52,12 @@ func TestUpstreamIconsAndAliases(t *testing.T) {
 		{"jq", "dark", "jqlang-dark.svg"},
 		{"chainlink-light", "", "chainlink-light.svg"},
 		{"consul-dark", "", "consul-dark.svg"},
+		{"colab", "dark", "googlecolab-dark.svg"},
+		{"collab", "light", "googlecolab-light.svg"},
+		{"google-colab", "", "googlecolab-auto.svg"},
+		{"jupyternotebook", "dark", "jupyter-dark.svg"},
+		{"jupyter-notebook", "light", "jupyter-light.svg"},
+		{"hugginface", "", "huggingface-auto.svg"},
 	} {
 		t.Run(test.name, func(t *testing.T) {
 			assertIconResponse(t, test.name, test.theme, test.asset)

@@ -252,6 +252,9 @@ Our Go service features an extensive alias engine so you can use common abbrevia
 | **AI Assistants** | Codex CLI | `codex` | `codexcli`, `codex-cli` |
 | **AI Agents** | Hermes Agent | `hermes` | `hermesagent`, `hermes-agent`, `nous-hermes` |
 | **AI Memory** | MemPalace | `mempalace` | `mem-palace` |
+| **AI & ML** | Hugging Face | `huggingface` | `hf` |
+| **AI & ML** | Google Colab | `googlecolab` | `colab`, `google-colab` |
+| **AI & ML** | Jupyter Notebook | `jupyter` | `jupyternotebook`, `jupyter-notebook` |
 | **Languages** | Go | `golang` | `go` |
 | **Languages** | TypeScript | `typescript` | `ts` |
 | **Languages** | Python | `python` | `py` |
