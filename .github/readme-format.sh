@@ -10,7 +10,7 @@ function get_maximum_length() {
     echo $maximum
 }
 
-awk '/^\|/ { exit } { print }' README.md > README.tmp && mv README.tmp README.md
+awk '/^\| Icon ID \|/ { exit } { print }' README.md > README.tmp && mv README.tmp README.md
 
 icon_list=()
 img_tags=()
@@ -99,7 +99,8 @@ do
 done
 
 echo "" >> README.md
-echo "# 💖 Support the Project" >> README.md
+echo "# 💖 Support & Community" >> README.md
 echo "" >> README.md
-echo "Thank you so much already for using my projects!" >> README.md
-echo "To support the project directly, feel free to open issues for icon suggestions, or contribute with a pull request!" >> README.md
+echo "Thank you for using **Skill Icons**! If you find this project helpful, please consider starring the repository on [GitHub](https://github.com/UMMAN2005/skill-icons)." >> README.md
+echo "" >> README.md
+echo "To suggest new icons, request features, or report issues, please [open an issue](https://github.com/UMMAN2005/skill-icons/issues) or submit a [pull request](https://github.com/UMMAN2005/skill-icons/pulls)!" >> README.md
