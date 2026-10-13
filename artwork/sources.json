@@ -586,6 +586,42 @@
       "url": "https://raw.githubusercontent.com/mempalace/mempalace/main/landing/index.html",
       "sha256": "bbd7d682658d9ef2d5bb936a4926738c6ec691f3d9d21750f4a1a50ebf1c66ed",
       "file": "mempalace.svg"
+    },
+    "elasticsearch": {
+      "url": "https://raw.githubusercontent.com/elastic/eui/main/packages/eui/src/components/icon/assets/logo_elasticsearch.tsx",
+      "sha256": "6f34c009099b2d00d89ddae2fad7758a7f3b0bdbb32f5176ef890765fb220732",
+      "file": "elasticsearch.svg",
+      "notes": "Extracted SVG geometry from the Elastic EUI component; CSS-dependent middle segment resolved to #343741. Elastic-License-2.0 OR SSPL-1.0."
+    },
+    "logstash": {
+      "url": "https://github.com/UMMAN2005/skill-icons/blob/main/assets/logstash-light.svg",
+      "sha256": "d0aa52f142eed95a94ca812a5b9f78817487acd4c5d92014f0b01fc5ec1fc920",
+      "file": "logstash.svg",
+      "notes": "Existing vector geometry extracted from the light tile, preserving its dark product segment in both themes."
+    },
+    "fluentd": {
+      "url": "https://github.com/UMMAN2005/skill-icons/blob/main/assets/fluentd-dark.svg",
+      "sha256": "8124ecfa71401cc1946d368c42f512f08730faa3b016c4d5097ac1529f7ce37c",
+      "file": "fluentd.svg",
+      "notes": "Existing Fluentd vector paths and gradients extracted from the tile; restored missing st0-st8 presentation fills and removed oversized tile framing. Upstream: https://github.com/cncf/artwork/blob/main/projects/fluentd/icon/color/fluentd-icon-color.svg"
+    },
+    "fluentbit": {
+      "url": "https://git.mibew.org/Mibew/simple-icons/commit/11836a36904480c74727783f59f5bbe6ded1a127",
+      "sha256": "c1170ee1cacdc8c132621f7bee40ba127a3be9488436108f114d27b4d7251811",
+      "file": "fluentbit.svg",
+      "notes": "Simple Icons Fluent Bit geometry extracted from its addition commit, using published #49BDA5. CC0-1.0."
+    },
+    "consul": {
+      "url": "https://www.svgviewer.dev/s/405033/consul",
+      "sha256": "91fe652103f5b1bac505d1f2ceda4ce9de42c1ac7c3487e315d25d38b833d26c",
+      "file": "consul.svg",
+      "notes": "HashiCorp Flight vector, retrieved from SVG Viewer; normalized to Consul pink. Upstream: https://github.com/hashicorp/design-system. MPL-2.0."
+    },
+    "vault": {
+      "url": "https://ticons.ticnob.com/icons/vault-9",
+      "sha256": "f16a10e3d859532ed535efc44f71e018c68253838dab1db1969f74de4b04b986",
+      "file": "vault.svg",
+      "notes": "Simple Icons Vault geometry; normalized to #FFD814. Transparent square cutouts retain the source winding. CC0-1.0."
     }
   },
   "icons": {
@@ -1399,9 +1435,6 @@
     "beats": {
       "dark": {
         "source": "beats",
-        "colors": {
-          "#353535": "#FFFFFF"
-        },
         "size": 195
       },
       "light": {
@@ -1632,6 +1665,66 @@
       "light": {
         "source": "mempalace",
         "size": 205
+      }
+    },
+    "elasticsearch": {
+      "dark": {
+        "source": "elasticsearch",
+        "size": 200
+      },
+      "light": {
+        "source": "elasticsearch",
+        "size": 200
+      }
+    },
+    "logstash": {
+      "dark": {
+        "source": "logstash",
+        "size": 195
+      },
+      "light": {
+        "source": "logstash",
+        "size": 195
+      }
+    },
+    "fluentd": {
+      "dark": {
+        "source": "fluentd",
+        "size": 200
+      },
+      "light": {
+        "source": "fluentd",
+        "size": 200
+      }
+    },
+    "fluentbit": {
+      "dark": {
+        "source": "fluentbit",
+        "size": 200
+      },
+      "light": {
+        "source": "fluentbit",
+        "size": 200
+      }
+    },
+    "consul": {
+      "dark": {
+        "source": "consul",
+        "size": 200
+      },
+      "light": {
+        "source": "consul",
+        "size": 200
+      }
+    },
+    "vault": {
+      "dark": {
+        "source": "vault",
+        "size": 200
+      },
+      "light": {
+        "source": "vault",
+        "size": 200
       }
     }
   }

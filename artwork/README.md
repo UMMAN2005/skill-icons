@@ -36,6 +36,13 @@ Crossplane under Developer Platforms & Delivery.
 
 ## Repairs
 
+- Elasticsearch uses the E-shaped product symbol from Elastic EUI. Logstash and
+  Beats preserve their dark segments in both themes. Fluentd restores the missing
+  gradient fills and uses proportional scaling with padding.
+- Fluent Bit is available as `fluentbit` or `fluent-bit`, using Simple Icons' bird
+  vector. Consul uses HashiCorp Flight geometry, and Vault uses the Simple Icons
+  triangle with its complete transparent square cutouts. See the
+  [dark/light comparison](./logging-preview.svg).
 - Backstage, Kyverno, OPA, Talos, HAProxy, Nix and uv now use their project marks.
   Kyverno previously contained Backstage's artwork; several others were invented
   shapes or font-dependent text.
@@ -70,6 +77,15 @@ Other sources are the projects' own repositories or sites: [OpenTofu](https://gi
 [Grafana](https://grafana.com/oss/), [CSS Next](https://github.com/CSS-Next/logo.css),
 and [Bootstrap](https://github.com/twbs/bootstrap).
 The manifest records the exact file URLs, including pinned commits where available.
+
+For the logging and secrets review, the manifest distinguishes extracted existing
+artwork from externally sourced geometry and records normalization steps. The
+checksums refer to the vendored SVGs. Elasticsearch's EUI geometry is available
+under [Elastic License 2.0](https://github.com/elastic/eui/blob/main/LICENSE) or
+SSPL-1.0; Consul's HashiCorp Flight geometry is covered by
+[MPL-2.0](https://github.com/hashicorp/design-system/blob/main/LICENSE).
+The Fluent Bit and Vault community vectors come from
+[Simple Icons (CC0-1.0)](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md).
 
 The new artwork also includes [Arm's logo pack](https://www.arm.com/company/policies/trademarks/guidelines-corporate-logo),
 [Google's Antigravity press assets](https://antigravity.google/press),

@@ -13,7 +13,7 @@ import (
 
 func TestCustomIconsSurviveUpstreamSync(t *testing.T) {
 	for _, name := range []string{
-		"consul", "docker", "fluentd", "flux",
+		"consul", "docker", "fluentd", "fluentbit", "elasticsearch", "beats", "flux",
 		"istio", "kustomize", "linkerd", "logstash", "packer", "vault",
 		"kubernetes", "prometheus", "debian", "ubuntu", "c", "dotnet",
 		"discord", "kafka", "postman", "solidity",
@@ -43,6 +43,9 @@ func TestUpstreamIconsAndAliases(t *testing.T) {
 		name, theme, asset string
 	}{
 		{"chi", "", "chi-auto.svg"},
+		{"fluent-bit", "", "fluentbit-auto.svg"},
+		{"fluent-bit", "dark", "fluentbit-dark.svg"},
+		{"fluent-bit", "light", "fluentbit-light.svg"},
 		{"js", "", "javascript.svg"},
 		{"python", "light", "python-light.svg"},
 		{"py", "dark", "python-dark.svg"},
