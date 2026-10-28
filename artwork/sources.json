@@ -650,6 +650,26 @@
       "sha256": "b8224bc5726ce26b18b96df3d9832d7230b60e2390cf87c1342b0822ad66f6f2",
       "file": "jquery.svg",
       "notes": "Devicon jQuery symbol (MIT)."
+    },
+    "just": {
+      "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/just.svg",
+      "file": "just.svg",
+      "sha256": "b0310a091407cab98ebbf2141c95ae7ddb83a7be6ecfb2bdd1cf5e7d04adaca1"
+    },
+    "wazuh": {
+      "url": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/main/svg/wazuh.svg",
+      "file": "wazuh.svg",
+      "sha256": "40e251a6eea635486c0169323276f2a09670292271c4e548bf157af39edbc95c"
+    },
+    "csv": {
+      "url": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_csv.svg",
+      "file": "csv.svg",
+      "sha256": "d9ae79508947257e90fa245ecffb550bab7837a6561da27841a701514003dd2c"
+    },
+    "ini": {
+      "url": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_ini.svg",
+      "file": "ini.svg",
+      "sha256": "8a9c47eefc0245c1c9adcef2ef07d82dba1abbd52bdca51dfd086686ea3f0b3e"
     }
   },
   "icons": {
@@ -1800,6 +1820,51 @@
       },
       "light": {
         "source": "jquery",
+        "size": 195
+      }
+    },
+    "just": {
+      "dark": {
+        "source": "just",
+        "size": 195,
+        "colors": {
+          "#000000": "#FFFFFF"
+        },
+        "color": "#FFFFFF"
+      },
+      "light": {
+        "source": "just",
+        "size": 195,
+        "color": "#242938"
+      }
+    },
+    "wazuh": {
+      "dark": {
+        "source": "wazuh",
+        "size": 195
+      },
+      "light": {
+        "source": "wazuh",
+        "size": 195
+      }
+    },
+    "csv": {
+      "dark": {
+        "source": "csv",
+        "size": 195
+      },
+      "light": {
+        "source": "csv",
+        "size": 195
+      }
+    },
+    "ini": {
+      "dark": {
+        "source": "ini",
+        "size": 195
+      },
+      "light": {
+        "source": "ini",
         "size": 195
       }
     }

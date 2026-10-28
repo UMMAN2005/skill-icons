@@ -218,7 +218,7 @@ func TestLatestRequestedIcons(t *testing.T) {
 func TestBatchNewIcons(t *testing.T) {
 	for _, name := range []string{
 		"sops", "buildpacks", "artifacthub", "cloudnativepg", "k9s", "k6",
-		"kaniko", "nexus", "openfaas", "keda", "openfeature", "telepresence", "flagger",
+		"kaniko", "nexus", "openfaas", "keda", "openfeature", "wazuh", "just", "csv", "ini", "telepresence", "flagger",
 		"knative", "coredns", "kubevip", "calico", "flannel", "cni",
 		"containerd", "kubebench", "syft", "grype", "makefile", "taskfile",
 		"hurl", "beats", "hubble", "tetragon", "robusta", "armo",
