@@ -622,6 +622,22 @@
       "sha256": "f16a10e3d859532ed535efc44f71e018c68253838dab1db1969f74de4b04b986",
       "file": "vault.svg",
       "notes": "Simple Icons Vault geometry; normalized to #FFD814. Transparent square cutouts retain the source winding. CC0-1.0."
+    },
+    "openfeature-black": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/b4b5989332c822ef09d5b38a512e2b39c63e32f2/projects/openfeature/icon/black/openfeature-black.svg",
+      "sha256": "27b61b13068d76d19f1484d2e7d5092c1337d4236e0b846471a24ceae1766f22",
+      "file": "openfeature-black.svg"
+    },
+    "openfeature-white": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/b4b5989332c822ef09d5b38a512e2b39c63e32f2/projects/openfeature/icon/white/openfeature-white.svg",
+      "sha256": "c468a939510ae6f75cd3d747b4c281f1e4559d262044010e81c4f13a6bbfb236",
+      "file": "openfeature-white.svg"
+    },
+    "openshift": {
+      "url": "https://github.com/UMMAN2005/skill-icons/blob/6527420/assets/openshift.svg",
+      "sha256": "974974415cd3163027fd24a69dea252b194f86d60ab33ec2b9f93e3290f00971",
+      "file": "openshift.svg",
+      "notes": "Existing OpenShift symbol extracted from its tile."
     }
   },
   "icons": {
@@ -1725,6 +1741,32 @@
       "light": {
         "source": "vault",
         "size": 200
+      }
+    },
+    "openfeature": {
+      "dark": {
+        "source": "openfeature-white",
+        "viewBox": "1 13 62 38",
+        "size": 195
+      },
+      "light": {
+        "source": "openfeature-black",
+        "viewBox": "1 13 62 38",
+        "size": 195
+      }
+    },
+    "openshift": {
+      "base": true,
+      "dark": {
+        "source": "openshift",
+        "size": 195
+      },
+      "light": {
+        "source": "openshift",
+        "size": 195,
+        "colors": {
+          "#fff": "#242938"
+        }
       }
     }
   }

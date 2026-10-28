@@ -43,6 +43,9 @@ func TestUpstreamIconsAndAliases(t *testing.T) {
 		name, theme, asset string
 	}{
 		{"chi", "", "chi-auto.svg"},
+		{"open-feature", "", "openfeature-auto.svg"},
+		{"openshift", "dark", "openshift-dark.svg"},
+		{"openshift", "light", "openshift-light.svg"},
 		{"fluent-bit", "", "fluentbit-auto.svg"},
 		{"fluent-bit", "dark", "fluentbit-dark.svg"},
 		{"fluent-bit", "light", "fluentbit-light.svg"},
@@ -209,7 +212,7 @@ func TestLatestRequestedIcons(t *testing.T) {
 func TestBatchNewIcons(t *testing.T) {
 	for _, name := range []string{
 		"sops", "buildpacks", "artifacthub", "cloudnativepg", "k9s", "k6",
-		"kaniko", "nexus", "openfaas", "keda", "telepresence", "flagger",
+		"kaniko", "nexus", "openfaas", "keda", "openfeature", "telepresence", "flagger",
 		"knative", "coredns", "kubevip", "calico", "flannel", "cni",
 		"containerd", "kubebench", "syft", "grype", "makefile", "taskfile",
 		"hurl", "beats", "hubble", "tetragon", "robusta", "armo",
