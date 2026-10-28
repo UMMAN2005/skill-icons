@@ -36,6 +36,13 @@ Crossplane under Developer Platforms & Delivery.
 
 ## Repairs
 
+- Wazuh uses the standalone `w.` symbol extracted from page 2 of its official
+  brand guide, with the original blue dot and contrasting white/black lettering.
+  Just uses the lowercase monospace name shown on its current project site.
+  CSV and INI have no official brand logos: their repository-native icons show
+  a table or section brackets with readable format labels. All lettering is
+  outlined vector geometry, and every icon has light, dark and automatic tiles.
+  See the [comparison at profile size](./profile-format-preview.png).
 - Elasticsearch uses the E-shaped product symbol from Elastic EUI. Logstash and
   Beats preserve their dark segments in both themes. Fluentd restores the missing
   gradient fills and uses proportional scaling with padding.

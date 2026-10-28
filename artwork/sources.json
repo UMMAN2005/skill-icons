@@ -652,24 +652,29 @@
       "notes": "Devicon jQuery symbol (MIT)."
     },
     "just": {
-      "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/just.svg",
+      "url": "https://just.systems/",
       "file": "just.svg",
-      "sha256": "b0310a091407cab98ebbf2141c95ae7ddb83a7be6ecfb2bdd1cf5e7d04adaca1"
+      "sha256": "0f59f3ae563463b2dba42122b3ca35f3bb6f84be7b2e27a12fc320f3cd6f4f84",
+      "notes": "Lowercase monospace name matching the current project homepage and README. Courier New Bold lettering converted to vector paths; not the community circular mark."
     },
     "wazuh": {
-      "url": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/main/svg/wazuh.svg",
+      "url": "https://wazuh.com/docs/Wazuh-logo-usage.pdf",
       "file": "wazuh.svg",
-      "sha256": "40e251a6eea635486c0169323276f2a09670292271c4e548bf157af39edbc95c"
+      "sha256": "2edbd3a8f1fffa886fc733c5d1543aad55f044b1f8bf57ca2a8ca1045d678a8f",
+      "notes": "Exact standalone w-dot symbol extracted from page 2 of the official brand guide. Black lettering and the original blue dot; white lettering on the dark tile.",
+      "upstream_sha256": "da10246c77d81da98f13daac5e805b37218765391e5cac55c2a3736b068105e2"
     },
     "csv": {
-      "url": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_csv.svg",
+      "url": "https://www.rfc-editor.org/rfc/rfc4180",
       "file": "csv.svg",
-      "sha256": "d9ae79508947257e90fa245ecffb550bab7837a6561da27841a701514003dd2c"
+      "sha256": "0e3861041097bffbb9c5e16604ae9eb5f8cde15f9855007193751568db5db8d6",
+      "notes": "Repository-native format icon: table grid and outlined CSV label. CSV has no official brand logo. Courier New Bold label converted to paths."
     },
     "ini": {
-      "url": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_ini.svg",
+      "url": "https://en.wikipedia.org/wiki/INI_file",
       "file": "ini.svg",
-      "sha256": "8a9c47eefc0245c1c9adcef2ef07d82dba1abbd52bdca51dfd086686ea3f0b3e"
+      "sha256": "211214972cea9804662774a109b2ae5e0431a14f0c26814bc0941c5ec868c66b",
+      "notes": "Repository-native format icon: section brackets, key/value line, and outlined INI label. INI has no official brand logo. Courier New Bold label converted to paths."
     }
   },
   "icons": {
@@ -1827,9 +1832,6 @@
       "dark": {
         "source": "just",
         "size": 195,
-        "colors": {
-          "#000000": "#FFFFFF"
-        },
         "color": "#FFFFFF"
       },
       "light": {
@@ -1841,31 +1843,37 @@
     "wazuh": {
       "dark": {
         "source": "wazuh",
-        "size": 195
+        "size": 195,
+        "color": "#FFFFFF"
       },
       "light": {
         "source": "wazuh",
-        "size": 195
+        "size": 195,
+        "color": "#000000"
       }
     },
     "csv": {
       "dark": {
         "source": "csv",
-        "size": 195
+        "size": 195,
+        "color": "#6EDB9B"
       },
       "light": {
         "source": "csv",
-        "size": 195
+        "size": 195,
+        "color": "#24784A"
       }
     },
     "ini": {
       "dark": {
         "source": "ini",
-        "size": 195
+        "size": 195,
+        "color": "#8AB4F8"
       },
       "light": {
         "source": "ini",
-        "size": 195
+        "size": 195,
+        "color": "#285FA8"
       }
     }
   }
