@@ -638,6 +638,12 @@
       "sha256": "974974415cd3163027fd24a69dea252b194f86d60ab33ec2b9f93e3290f00971",
       "file": "openshift.svg",
       "notes": "Existing OpenShift symbol extracted from its tile."
+    },
+    "mermaid": {
+      "url": "https://github.com/UMMAN2005/skill-icons/blob/149984c/assets/mermaid.svg",
+      "sha256": "8778055a37879021bd4af2dadfc8fb8a4396bf878bf739bacb4c1a1c061b61b3",
+      "file": "mermaid.svg",
+      "notes": "Existing Mermaid symbol extracted from its pink tile and recolored to its brand pink."
     }
   },
   "icons": {
@@ -1767,6 +1773,17 @@
         "colors": {
           "#fff": "#242938"
         }
+      }
+    },
+    "mermaid": {
+      "base": true,
+      "dark": {
+        "source": "mermaid",
+        "size": 195
+      },
+      "light": {
+        "source": "mermaid",
+        "size": 195
       }
     }
   }
