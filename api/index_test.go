@@ -44,6 +44,9 @@ func TestUpstreamIconsAndAliases(t *testing.T) {
 	}{
 		{"chi", "", "chi-auto.svg"},
 		{"open-feature", "", "openfeature-auto.svg"},
+		{"jquery", "", "jquery.svg"},
+		{"jquery", "dark", "jquery-dark.svg"},
+		{"jquery", "light", "jquery-light.svg"},
 		{"mermaid", "", "mermaid.svg"},
 		{"mermaid", "dark", "mermaid-dark.svg"},
 		{"mermaid", "light", "mermaid-light.svg"},

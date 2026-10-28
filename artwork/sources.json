@@ -644,6 +644,12 @@
       "sha256": "8778055a37879021bd4af2dadfc8fb8a4396bf878bf739bacb4c1a1c061b61b3",
       "file": "mermaid.svg",
       "notes": "Existing Mermaid symbol extracted from its pink tile and recolored to its brand pink."
+    },
+    "jquery": {
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/jquery/jquery-original.svg",
+      "sha256": "b8224bc5726ce26b18b96df3d9832d7230b60e2390cf87c1342b0822ad66f6f2",
+      "file": "jquery.svg",
+      "notes": "Devicon jQuery symbol (MIT)."
     }
   },
   "icons": {
@@ -1783,6 +1789,17 @@
       },
       "light": {
         "source": "mermaid",
+        "size": 195
+      }
+    },
+    "jquery": {
+      "base": true,
+      "dark": {
+        "source": "jquery",
+        "size": 195
+      },
+      "light": {
+        "source": "jquery",
         "size": 195
       }
     }
