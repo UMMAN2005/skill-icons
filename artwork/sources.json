@@ -651,10 +651,9 @@
       "notes": "Devicon jQuery symbol (MIT)."
     },
     "just": {
-      "url": "https://raw.githubusercontent.com/casey/just/master/etc/icon.png",
-      "sha256": "85ca66cf2aaebb3bbd2542965336a400b1832d854b556f5b5a05e5a39b633ef5",
-      "file": "just.svg",
-      "note": "Geometric vector reproduction of official casey/just circular colon emblem."
+      "url": "https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/just.svg",
+      "sha256": "24ba0970a7bee30bf26c0e513f8f4aa1b2681f04eb7a7a5fb1db07cc18815786",
+      "file": "just.svg"
     },
     "wazuh": {
       "url": "https://wazuh.com/docs/Wazuh-logo-usage.pdf",
@@ -670,10 +669,9 @@
       "notes": "Repository-native format icon: table grid and outlined CSV label. CSV has no official brand logo. Courier New Bold label converted to paths."
     },
     "ini": {
-      "url": "https://en.wikipedia.org/wiki/INI_file",
-      "file": "ini.svg",
-      "sha256": "211214972cea9804662774a109b2ae5e0431a14f0c26814bc0941c5ec868c66b",
-      "notes": "Repository-native format icon: section brackets, key/value line, and outlined INI label. INI has no official brand logo. Courier New Bold label converted to paths."
+      "url": "https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/tune.svg",
+      "sha256": "786079eb0fe6434373f36f016470176df8983372756a3facd900ea39e5d36771",
+      "file": "ini.svg"
     },
     "keycloak": {
       "url": "https://raw.githubusercontent.com/cncf/artwork/main/projects/keycloak/icon/color/keycloak-icon-color.svg",
@@ -742,13 +740,15 @@
     },
     "csv-dark": {
       "url": "https://github.com/UMMAN2005/skill-icons",
-      "sha256": "b5da9e03ec830d44c371b504e7259c26072abd2fc150762132ee8e7e0283974d",
-      "file": "csv-dark.svg"
+      "sha256": "1d8ad39c2ef9d9d7a7bf33e5b31c6bc5db9114df5f468d83fae5ce38d4ba69b8",
+      "file": "csv-dark.svg",
+      "note": "Text-free emerald spreadsheet grid icon for CSV."
     },
     "csv-light": {
       "url": "https://github.com/UMMAN2005/skill-icons",
-      "sha256": "1b1083684e8203fedbe465bd7489b85ebfc0e87201a3566bec8b42e6fb392ea3",
-      "file": "csv-light.svg"
+      "sha256": "200d14061d8fb8adb709f3e7362f80ed690f932e390b3d468e5dfefe48ce113a",
+      "file": "csv-light.svg",
+      "note": "Text-free emerald spreadsheet grid icon for CSV (light theme)."
     },
     "ini-dark": {
       "url": "https://github.com/UMMAN2005/skill-icons",
@@ -779,6 +779,34 @@
       "url": "https://raw.githubusercontent.com/cncf/artwork/main/projects/sops/icon/color/sops-icon-color.svg",
       "sha256": "8b01718a745ac47878c1851afe56895ad107d100ace08318162d668ff9037162",
       "file": "sops-badge.svg"
+    },
+    "docker": {
+      "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/docker.svg",
+      "sha256": "e91474e8e2ee0af54cb42104a0616625f678479a91c4a2bcbd2284352d78b57d",
+      "file": "docker.svg"
+    },
+    "macos": {
+      "url": "https://raw.githubusercontent.com/vinceliuice/MacTahoe-icon-theme/main/src/apps/scalable/file-manager.svg",
+      "sha256": "1dd88e9ee27a257855d8712de3870cf7ca7c87f3e591f45de7444c2456bfa007",
+      "file": "macos.svg"
+    },
+    "cloudnativepg-dark": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/main/projects/cloudnativepg/icon/color/cloudnativepg-icon-color.svg",
+      "sha256": "7c01a257e67f4f7645ed35cae8f0ee2bfbd1a6f2263b0632969f5942d6f143a3",
+      "file": "cloudnativepg-dark.svg",
+      "note": "Lifted purple gradient stops from official CNCF CloudNativePG color SVG for dark-tile contrast."
+    },
+    "telepresence-dark": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/main/projects/telepresence/icon/color/telepresence-icon-color.svg",
+      "sha256": "8e00a73c7dc006ee4dcf066e88c8b87d65d9de68e92ac4127e8714a2e9dfb027",
+      "file": "telepresence-dark.svg",
+      "note": "Official CNCF Telepresence color SVG with subtle light rim around dark helmet/body for dark-tile visibility."
+    },
+    "k9s-dark": {
+      "url": "https://github.com/derailed/k9s",
+      "sha256": "4fe0d123964a0559762135fd29aedb1955c79c2cd8628c586b0c04405e1351f2",
+      "file": "k9s-dark.svg",
+      "note": "K9s bulldog preserving dark fur and blue glasses with crisp light edge contour for dark tiles."
     }
   },
   "icons": {
@@ -1199,8 +1227,12 @@
     },
     "opencost": {
       "dark": {
-        "source": "opencost-white",
-        "size": 195
+        "source": "opencost",
+        "size": 195,
+        "colors": {
+          "#023927": "#A7F3D0",
+          "#416a5d": "#34D399"
+        }
       },
       "light": {
         "source": "opencost",
@@ -1360,7 +1392,7 @@
     },
     "cloudnativepg": {
       "dark": {
-        "source": "cloudnativepg-white",
+        "source": "cloudnativepg-dark",
         "size": 195
       },
       "light": {
@@ -1370,10 +1402,7 @@
     },
     "k9s": {
       "dark": {
-        "source": "k9s",
-        "colors": {
-          "#202020": "#FFFFFF"
-        },
+        "source": "k9s-dark",
         "size": 210
       },
       "light": {
@@ -1426,8 +1455,13 @@
     },
     "keda": {
       "dark": {
-        "source": "keda-white",
-        "size": 195
+        "source": "keda",
+        "size": 195,
+        "colors": {
+          "#326de6": "#4D8BFF",
+          "#5478e0": "#6CA4FF",
+          "#719bea": "#93C5FD"
+        }
       },
       "light": {
         "source": "keda",
@@ -1436,7 +1470,7 @@
     },
     "telepresence": {
       "dark": {
-        "source": "telepresence-white",
+        "source": "telepresence-dark",
         "size": 195
       },
       "light": {
@@ -1932,13 +1966,11 @@
     "just": {
       "dark": {
         "source": "just",
-        "size": 190,
-        "color": "#FFFFFF"
+        "size": 195
       },
       "light": {
         "source": "just",
-        "size": 190,
-        "color": "#242938"
+        "size": 195
       }
     },
     "wazuh": {
@@ -1965,12 +1997,15 @@
     },
     "ini": {
       "dark": {
-        "source": "ini-dark",
+        "source": "ini",
         "size": 200
       },
       "light": {
-        "source": "ini-light",
-        "size": 200
+        "source": "ini",
+        "size": 200,
+        "colors": {
+          "#fbc02d": "#D97706"
+        }
       }
     },
     "keycloak": {
@@ -1987,11 +2022,17 @@
     "liquibase": {
       "dark": {
         "source": "liquibase",
-        "size": 200
+        "size": 200,
+        "colors": {
+          "#ff3c00": "#3B82F6"
+        }
       },
       "light": {
         "source": "liquibase",
-        "size": 200
+        "size": 200,
+        "colors": {
+          "#ff3c00": "#2962FF"
+        }
       }
     },
     "firecrawl": {
@@ -2048,6 +2089,32 @@
         "colors": {
           "#000000": "#242938"
         }
+      }
+    },
+    "docker": {
+      "dark": {
+        "source": "docker",
+        "size": 200,
+        "colors": {
+          "#000000": "#6172FF"
+        }
+      },
+      "light": {
+        "source": "docker",
+        "size": 200,
+        "colors": {
+          "#000000": "#6172FF"
+        }
+      }
+    },
+    "macos": {
+      "dark": {
+        "source": "macos",
+        "size": 210
+      },
+      "light": {
+        "source": "macos",
+        "size": 210
       }
     }
   }
