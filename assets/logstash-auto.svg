@@ -4,4 +4,4 @@
       .logstash-auto-bg { fill: #F4F2ED; }
     }
   </style><rect width="256" height="256" rx="60" fill="#242938" class="logstash-auto-bg" /><g transform="translate(-13.64091 -13.81818) scale(3.545455)"><g fill="#000000"><g>
-    <path fill="#f3bd19" d="M41.1 41.9H15.6V12.5h7.7c9.9 0 17.8 8 17.8 17.8v11.6z" /><path fill="#231f20" d="M41.1 67.5c-14.1 0-25.6-11.4-25.6-25.6h25.6v25.6z" /><path fill="#3ebeb0" d="M41.1 41.9h23.3v25.6H41.1z" /><path fill="#37a595" d="M41.1 41.9h5.4v25.6h-5.4z" /></g></g></g></svg>
+    <path fill="#FEC514" d="M41.1 41.9H15.6V12.5h7.7c9.9 0 17.8 8 17.8 17.8v11.6z" /><path fill="#343741" d="M41.1 67.5c-14.1 0-25.6-11.4-25.6-25.6h25.6v25.6z" /><path fill="#00BFB3" d="M41.1 41.9h23.3v25.6H41.1z" /><path fill="#009B90" d="M41.1 41.9h5.4v25.6h-5.4z" /></g></g></g></svg>

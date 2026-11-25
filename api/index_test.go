@@ -171,7 +171,7 @@ func TestExplicitThemesForIconsWithBaseAssets(t *testing.T) {
 	// An explicit theme must not silently return the auto-themed base file.
 	for _, name := range []string{
 		"ansible", "chainlink", "fastapi", "flask", "gitlab", "golang",
-		"infura", "javascript", "keycloak", "mongodb", "nginx", "typescript",
+		"infura", "javascript", "keycloak", "mongodb", "nginx", "sqlite", "typescript",
 		"cpp", "cs", "sentry", "c", "windows11", "mongoose",
 	} {
 		for _, theme := range []string{"dark", "light"} {

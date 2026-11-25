@@ -807,6 +807,11 @@
       "sha256": "4fe0d123964a0559762135fd29aedb1955c79c2cd8628c586b0c04405e1351f2",
       "file": "k9s-dark.svg",
       "note": "K9s bulldog preserving dark fur and blue glasses with crisp light edge contour for dark tiles."
+    },
+    "sqlite": {
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg",
+      "sha256": "2b91c30887d3602479ba845cc012ef6ae577fba71eb96705a05b12e35d2c5e7e",
+      "file": "sqlite.svg"
     }
   },
   "icons": {
@@ -1621,11 +1626,17 @@
     "beats": {
       "dark": {
         "source": "beats",
-        "size": 195
+        "size": 195,
+        "colors": {
+          "#353535": "#343741"
+        }
       },
       "light": {
         "source": "beats",
-        "size": 195
+        "size": 195,
+        "colors": {
+          "#353535": "#343741"
+        }
       }
     },
     "hubble": {
@@ -1866,11 +1877,23 @@
     "logstash": {
       "dark": {
         "source": "logstash",
-        "size": 195
+        "size": 195,
+        "colors": {
+          "#231f20": "#343741",
+          "#f3bd19": "#FEC514",
+          "#3ebeb0": "#00BFB3",
+          "#37a595": "#009B90"
+        }
       },
       "light": {
         "source": "logstash",
-        "size": 195
+        "size": 195,
+        "colors": {
+          "#231f20": "#343741",
+          "#f3bd19": "#FEC514",
+          "#3ebeb0": "#00BFB3",
+          "#37a595": "#009B90"
+        }
       }
     },
     "fluentd": {
@@ -2115,6 +2138,20 @@
       "light": {
         "source": "macos",
         "size": 210
+      }
+    },
+    "sqlite": {
+      "base": true,
+      "dark": {
+        "source": "sqlite",
+        "size": 195,
+        "colors": {
+          "#003956": "#E0F2FE"
+        }
+      },
+      "light": {
+        "source": "sqlite",
+        "size": 195
       }
     }
   }
