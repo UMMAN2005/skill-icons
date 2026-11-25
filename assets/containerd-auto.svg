@@ -1,6 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256" viewBox="0 0 256 256" fill="none"><style>
     .containerd-auto-bg { fill: #242938; }
+    .containerd-auto-light { display: none; }
     @media (prefers-color-scheme: light) {
       .containerd-auto-bg { fill: #F4F2ED; }
+      .containerd-auto-dark { display: none; }
+      .containerd-auto-light { display: inline; }
     }
-  </style><rect width="256" height="256" rx="60" fill="#242938" class="containerd-auto-bg" /><g transform="translate(30.98285 30.6444) scale(0.9025271)"><g fill="#000000"><path d="M35.1 4v208h145.1V4H35.1zm121 183.8H59.3V95.9H127V62h29v125.8z" /><path d="M88.3 120.1H127v43.5H88.3z" /></g></g></svg>
+  </style><rect width="256" height="256" rx="60" fill="#242938" class="containerd-auto-bg" /><g transform="translate(31.68445 31.57271) scale(0.8939213)" class="containerd-auto-dark"><g fill="#000000"><path d="M88.5 120.2h39.1v44H88.5z" fill="#fff" /><path d="M34.7 3v210h146.5V3H34.7zm122.1 185.6H59.1V95.8h68.4V61.6h29.3v127z" fill="#fff" /></g></g><g transform="translate(30.98285 30.6444) scale(0.9025271)" class="containerd-auto-light"><g fill="#000000"><path d="M35.1 4v208h145.1V4H35.1zm121 183.8H59.3V95.9H127V62h29v125.8z" /><path d="M88.3 120.1H127v43.5H88.3z" /></g></g></svg>

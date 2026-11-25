@@ -606,10 +606,9 @@
       "notes": "Existing Fluentd vector paths and gradients extracted from the tile; restored missing st0-st8 presentation fills and removed oversized tile framing. Upstream: https://github.com/cncf/artwork/blob/main/projects/fluentd/icon/color/fluentd-icon-color.svg"
     },
     "fluentbit": {
-      "url": "https://git.mibew.org/Mibew/simple-icons/commit/11836a36904480c74727783f59f5bbe6ded1a127",
-      "sha256": "c1170ee1cacdc8c132621f7bee40ba127a3be9488436108f114d27b4d7251811",
-      "file": "fluentbit.svg",
-      "notes": "Simple Icons Fluent Bit geometry extracted from its addition commit, using published #49BDA5. CC0-1.0."
+      "url": "https://raw.githubusercontent.com/cncf/artwork/main/projects/fluentd/fluentbit/icon/fluentbit-icon-color.svg",
+      "sha256": "13e5ea9b72ac8dfd8c6d8737b86da648b532b839d8cd072f2c439b106d122ff2",
+      "file": "fluentbit.svg"
     },
     "consul": {
       "url": "https://www.svgviewer.dev/s/405033/consul",
@@ -652,10 +651,10 @@
       "notes": "Devicon jQuery symbol (MIT)."
     },
     "just": {
-      "url": "https://just.systems/",
+      "url": "https://raw.githubusercontent.com/casey/just/master/etc/icon.png",
+      "sha256": "85ca66cf2aaebb3bbd2542965336a400b1832d854b556f5b5a05e5a39b633ef5",
       "file": "just.svg",
-      "sha256": "0f59f3ae563463b2dba42122b3ca35f3bb6f84be7b2e27a12fc320f3cd6f4f84",
-      "notes": "Lowercase monospace name matching the current project homepage and README. Courier New Bold lettering converted to vector paths; not the community circular mark."
+      "note": "Geometric vector reproduction of official casey/just circular colon emblem."
     },
     "wazuh": {
       "url": "https://wazuh.com/docs/Wazuh-logo-usage.pdf",
@@ -675,6 +674,111 @@
       "file": "ini.svg",
       "sha256": "211214972cea9804662774a109b2ae5e0431a14f0c26814bc0941c5ec868c66b",
       "notes": "Repository-native format icon: section brackets, key/value line, and outlined INI label. INI has no official brand logo. Courier New Bold label converted to paths."
+    },
+    "keycloak": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/main/projects/keycloak/icon/color/keycloak-icon-color.svg",
+      "sha256": "488472bcd75c7cfe6442c8f2248cf0d7cb57d3faed00be9b59e1744a8cbd2ad2",
+      "file": "keycloak.svg"
+    },
+    "liquibase": {
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/liquibase/liquibase-original.svg",
+      "sha256": "14f7b8bdb6cc3b17119b25a3263f7a6a99b3a43916ad2558d5d1cca9e58207c2",
+      "file": "liquibase.svg"
+    },
+    "firecrawl": {
+      "url": "https://raw.githubusercontent.com/firecrawl/firecrawl/main/apps/test-site/src/assets/firecrawl-logo.svg",
+      "sha256": "ec18c027f59a50b2fa5da33cf81a32ab8b93f6da1e26b7f50d146a80fa58c1a8",
+      "file": "firecrawl.svg"
+    },
+    "trello": {
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/trello/trello-original.svg",
+      "sha256": "34185ab6c99c781c9d715bc9d5d1934f8fa4eb88c6778bef5e45a1185ae665bc",
+      "file": "trello.svg"
+    },
+    "vaultwarden": {
+      "url": "https://raw.githubusercontent.com/dani-garcia/vaultwarden/main/resources/vaultwarden-icon.svg",
+      "sha256": "c58fe91554bda6e1be51bd0cf56ac84ab63f798d5173e41e71e1aa1de515c7ef",
+      "file": "vaultwarden.svg"
+    },
+    "vaultwarden-white": {
+      "url": "https://raw.githubusercontent.com/dani-garcia/vaultwarden/main/resources/vaultwarden-icon-white.svg",
+      "sha256": "847de8d11ea21e4cda7264b01aa2f4b9f64e2bcdd25f9a4c38ecbc05a1e97a48",
+      "file": "vaultwarden-white.svg"
+    },
+    "cloudnativepg-white": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/main/projects/cloudnativepg/icon/white/cloudnativepg-icon-white.svg",
+      "sha256": "bb803c826797e1d0194345842404dc57e7bdcfc08331feca113347aa3084a044",
+      "file": "cloudnativepg-white.svg"
+    },
+    "containerd-white": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/main/projects/containerd/icon/white/containerd-icon-white.svg",
+      "sha256": "4ab7601f573a893e575f904f8d0a632e1e57ee7a2727df29839c298ee67b78db",
+      "file": "containerd-white.svg"
+    },
+    "keda-white": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/main/projects/keda/icon/white/keda-icon-white.svg",
+      "sha256": "934e5cb4b2c4857051f957fa5d60593d07d6f7f39c4d0ea3b703650857bbbc50",
+      "file": "keda-white.svg"
+    },
+    "telepresence-white": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/main/projects/telepresence/icon/white/telepresence-icon-white.svg",
+      "sha256": "e57cbbe735cb8f33ace31911d0ec3135e768af4936f011f196111d5a9ffd5d9c",
+      "file": "telepresence-white.svg"
+    },
+    "sqlserver": {
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/microsoftsqlserver/microsoftsqlserver-original.svg",
+      "sha256": "f52b63cb5ff8c17efc079ae93eb7e2f1a04ca34eb736310c3576b19c0b9db21d",
+      "file": "sqlserver.svg"
+    },
+    "vmware": {
+      "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/vmware.svg",
+      "sha256": "4c3970bf3955a3e95c7d9eef7f4f45528c487dffa92092ce9273913f8271029a",
+      "file": "vmware.svg"
+    },
+    "codex-color": {
+      "url": "https://raw.githubusercontent.com/LelouchFR/skill-icons/main/assets/codex-dark.svg",
+      "sha256": "42cbf44ea6d858a2a7c3537a952cc7dd552e31fc68646ebbbd89480c004ab15c",
+      "file": "codex-color.svg"
+    },
+    "csv-dark": {
+      "url": "https://github.com/UMMAN2005/skill-icons",
+      "sha256": "b5da9e03ec830d44c371b504e7259c26072abd2fc150762132ee8e7e0283974d",
+      "file": "csv-dark.svg"
+    },
+    "csv-light": {
+      "url": "https://github.com/UMMAN2005/skill-icons",
+      "sha256": "1b1083684e8203fedbe465bd7489b85ebfc0e87201a3566bec8b42e6fb392ea3",
+      "file": "csv-light.svg"
+    },
+    "ini-dark": {
+      "url": "https://github.com/UMMAN2005/skill-icons",
+      "sha256": "3d71c3f144f84ac8a90db1a86147d01204e67d956aabbdcab51fdd8a141a6130",
+      "file": "ini-dark.svg"
+    },
+    "ini-light": {
+      "url": "https://github.com/UMMAN2005/skill-icons",
+      "sha256": "a19c3c5e74a91598057dd8d5d2780a02f0e3afd8b268422e7baaed06d5c168cf",
+      "file": "ini-light.svg"
+    },
+    "gitleaks-bold": {
+      "url": "https://github.com/gitleaks/gitleaks",
+      "sha256": "3d12de51c5ba001b91460c390256888a77f4d0e5690105c711cca41cf6baee3f",
+      "file": "gitleaks-bold.svg"
+    },
+    "hyperledger-bold": {
+      "url": "https://github.com/hyperledger",
+      "sha256": "d9c409db1a472dab684d3214c12106e7f257ed9c989a7e87a2907c827a91d064",
+      "file": "hyperledger-bold.svg"
+    },
+    "dockercompose-dark": {
+      "url": "https://github.com/docker/compose",
+      "sha256": "db1f2a35ae8874b742f5a400ba257668c5bd721c138103f3b1d59f4c3f4bc466",
+      "file": "dockercompose-dark.svg"
+    },
+    "sops-badge": {
+      "url": "https://raw.githubusercontent.com/cncf/artwork/main/projects/sops/icon/color/sops-icon-color.svg",
+      "sha256": "8b01718a745ac47878c1851afe56895ad107d100ace08318162d668ff9037162",
+      "file": "sops-badge.svg"
     }
   },
   "icons": {
@@ -964,12 +1068,12 @@
     },
     "codex": {
       "dark": {
-        "source": "codex",
-        "color": "#FFFFFF"
+        "source": "codex-color",
+        "size": 200
       },
       "light": {
-        "source": "codex",
-        "color": "#242938"
+        "source": "codex-color",
+        "size": 200
       }
     },
     "tekton": {
@@ -1162,14 +1266,14 @@
     },
     "hyperledger": {
       "dark": {
-        "source": "hyperledger",
+        "source": "hyperledger-bold",
         "size": 195,
         "colors": {
           "#2f3136": "#FFFFFF"
         }
       },
       "light": {
-        "source": "hyperledger",
+        "source": "hyperledger-bold",
         "size": 195
       }
     },
@@ -1223,22 +1327,14 @@
     },
     "sops": {
       "dark": {
-        "source": "sops",
-        "remove": [
-          "./s:g/s:rect"
-        ],
-        "viewBox": "112 210 276 80",
-        "size": 200
+        "source": "sops-badge",
+        "size": 195
       },
       "light": {
-        "source": "sops",
-        "remove": [
-          "./s:g/s:rect"
-        ],
-        "viewBox": "112 210 276 80",
-        "size": 200,
+        "source": "sops-badge",
+        "size": 195,
         "colors": {
-          "#fafafa": "#242938"
+          "#64748b": "#09090B"
         }
       }
     },
@@ -1264,7 +1360,7 @@
     },
     "cloudnativepg": {
       "dark": {
-        "source": "cloudnativepg",
+        "source": "cloudnativepg-white",
         "size": 195
       },
       "light": {
@@ -1318,16 +1414,19 @@
     "openfaas": {
       "dark": {
         "source": "openfaas",
-        "size": 195
+        "size": 200,
+        "colors": {
+          "#3a4e55": "#E2E8F0"
+        }
       },
       "light": {
         "source": "openfaas",
-        "size": 195
+        "size": 200
       }
     },
     "keda": {
       "dark": {
-        "source": "keda",
+        "source": "keda-white",
         "size": 195
       },
       "light": {
@@ -1337,7 +1436,7 @@
     },
     "telepresence": {
       "dark": {
-        "source": "telepresence",
+        "source": "telepresence-white",
         "size": 195
       },
       "light": {
@@ -1417,7 +1516,7 @@
     },
     "containerd": {
       "dark": {
-        "source": "containerd",
+        "source": "containerd-white",
         "size": 195
       },
       "light": {
@@ -1666,14 +1765,14 @@
     },
     "gitleaks": {
       "dark": {
-        "source": "gitleaks",
+        "source": "gitleaks-bold",
         "size": 195,
         "colors": {
           "#000000": "#FFFFFF"
         }
       },
       "light": {
-        "source": "gitleaks",
+        "source": "gitleaks-bold",
         "size": 195,
         "colors": {
           "#000000": "#242938"
@@ -1692,7 +1791,7 @@
     },
     "dockercompose": {
       "dark": {
-        "source": "dockercompose",
+        "source": "dockercompose-dark",
         "size": 195
       },
       "light": {
@@ -1753,11 +1852,13 @@
     "fluentbit": {
       "dark": {
         "source": "fluentbit",
-        "size": 200
+        "viewBox": "55 55 598 598",
+        "size": 205
       },
       "light": {
         "source": "fluentbit",
-        "size": 200
+        "viewBox": "55 55 598 598",
+        "size": 205
       }
     },
     "consul": {
@@ -1831,12 +1932,12 @@
     "just": {
       "dark": {
         "source": "just",
-        "size": 195,
+        "size": 190,
         "color": "#FFFFFF"
       },
       "light": {
         "source": "just",
-        "size": 195,
+        "size": 190,
         "color": "#242938"
       }
     },
@@ -1854,26 +1955,99 @@
     },
     "csv": {
       "dark": {
-        "source": "csv",
-        "size": 195,
-        "color": "#6EDB9B"
+        "source": "csv-dark",
+        "size": 200
       },
       "light": {
-        "source": "csv",
-        "size": 195,
-        "color": "#24784A"
+        "source": "csv-light",
+        "size": 200
       }
     },
     "ini": {
       "dark": {
-        "source": "ini",
-        "size": 195,
-        "color": "#8AB4F8"
+        "source": "ini-dark",
+        "size": 200
       },
       "light": {
-        "source": "ini",
-        "size": 195,
-        "color": "#285FA8"
+        "source": "ini-light",
+        "size": 200
+      }
+    },
+    "keycloak": {
+      "base": true,
+      "dark": {
+        "source": "keycloak",
+        "size": 200
+      },
+      "light": {
+        "source": "keycloak",
+        "size": 200
+      }
+    },
+    "liquibase": {
+      "dark": {
+        "source": "liquibase",
+        "size": 200
+      },
+      "light": {
+        "source": "liquibase",
+        "size": 200
+      }
+    },
+    "firecrawl": {
+      "dark": {
+        "source": "firecrawl",
+        "size": 195
+      },
+      "light": {
+        "source": "firecrawl",
+        "size": 195
+      }
+    },
+    "trello": {
+      "dark": {
+        "source": "trello",
+        "size": 195
+      },
+      "light": {
+        "source": "trello",
+        "size": 195
+      }
+    },
+    "vaultwarden": {
+      "dark": {
+        "source": "vaultwarden-white",
+        "size": 200
+      },
+      "light": {
+        "source": "vaultwarden",
+        "size": 200
+      }
+    },
+    "sqlserver": {
+      "dark": {
+        "source": "sqlserver",
+        "size": 200
+      },
+      "light": {
+        "source": "sqlserver",
+        "size": 200
+      }
+    },
+    "vmware": {
+      "dark": {
+        "source": "vmware",
+        "size": 205,
+        "colors": {
+          "#000000": "#FFFFFF"
+        }
+      },
+      "light": {
+        "source": "vmware",
+        "size": 205,
+        "colors": {
+          "#000000": "#242938"
+        }
       }
     }
   }

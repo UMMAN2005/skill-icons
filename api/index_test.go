@@ -171,7 +171,7 @@ func TestExplicitThemesForIconsWithBaseAssets(t *testing.T) {
 	// An explicit theme must not silently return the auto-themed base file.
 	for _, name := range []string{
 		"ansible", "chainlink", "fastapi", "flask", "gitlab", "golang",
-		"infura", "javascript", "mongodb", "nginx", "typescript",
+		"infura", "javascript", "keycloak", "mongodb", "nginx", "typescript",
 		"cpp", "cs", "sentry", "c", "windows11", "mongoose",
 	} {
 		for _, theme := range []string{"dark", "light"} {
@@ -341,6 +341,56 @@ func TestProfileStrips(t *testing.T) {
 		"git,lefthook,vscode,visualstudio,vim,zed,makefile,taskfile,k9s,starship,telepresence,hurl,k6,ossfuzz",
 		"yaml,json,hcl,toml,markdown,latex,regex",
 		"html,css,bootstrap,js,ts,nodejs,fastapi,flask,dotnet,blazor,dapper,sqlalchemy,mongoose,graphql,flutter,riverpod,firebase,vercel",
+		// Latest profile additions:
+		"kyverno,opa,ranger,keycloak,certmanager,vault,vaultwarden,sops,externalsecrets,tetragon,falco,sonarqube,semgrep,armo,trivy,kubescape,kubebench,syft,grype,cosign,gitleaks,trufflehog",
+		"postgres,cloudnativepg,mysql,sqlserver,mongodb,redis,etcd,liquibase,longhorn,rabbitmq",
+		"claudecode,codex,antigravity,hermes,mempalace,githubcopilot,ollama,mcp,firecrawl,huggingface,jupyter,googlecolab,airflow,airbyte,trino,qdrant",
+		"git,lefthook,vscode,visualstudio,vim,zed,ghostty,makefile,taskfile,just,k9s,starship,telepresence,hurl,k6,ossfuzz,jira,trello,confluence",
+	}
+
+	for _, name := range []string{
+		"liquibase", "firecrawl", "trello", "vaultwarden",
+		"browserstack", "bruno", "docusaurus", "fastify", "grapheneos",
+		"micropython", "ntfy", "opencode", "orpc", "qutebrowser",
+		"upstash", "wakatime", "xampp", "spotify",
+	} {
+		for _, theme := range []string{"", "dark", "light"} {
+			assetTheme := theme
+			if assetTheme == "" {
+				assetTheme = "auto"
+			}
+			t.Run("new/"+name+"/"+theme, func(t *testing.T) {
+				assertIconResponse(t, name, theme, name+"-"+assetTheme+".svg")
+			})
+		}
+	}
+
+	for _, name := range []string{"kiro", "lmstudio", "threads", "verilog"} {
+		t.Run("single/"+name, func(t *testing.T) {
+			assertIconResponse(t, name, "", name+".svg")
+		})
+	}
+
+	for _, alias := range []struct {
+		input, target string
+	}{
+		{"liquibase-cli", "liquibase-auto.svg"},
+		{"fire-crawl", "firecrawl-auto.svg"},
+		{"vault-warden", "vaultwarden-auto.svg"},
+		{"bitwarden-rs", "vaultwarden-auto.svg"},
+		{"atlassian-jira", "jira-auto.svg"},
+		{"atlassian-trello", "trello-auto.svg"},
+		{"atlassian-confluence", "confluence-auto.svg"},
+		{"waka-time", "wakatime-auto.svg"},
+		{"open-code", "opencode-auto.svg"},
+		{"lm-studio", "lmstudio.svg"},
+		{"micro-python", "micropython-auto.svg"},
+		{"browser-stack", "browserstack-auto.svg"},
+		{"graphene-os", "grapheneos-auto.svg"},
+	} {
+		t.Run("alias/"+alias.input, func(t *testing.T) {
+			assertIconResponse(t, alias.input, "", alias.target)
+		})
 	}
 
 	for _, strip := range strips {
